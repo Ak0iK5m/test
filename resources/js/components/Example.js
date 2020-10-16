@@ -5,12 +5,11 @@ export default class Example extends Component{
     render(){
         return(
             <div>
-                <h1>aaaaa</h1>
+                <h1>default import is.</h1>
             </div>
         );
     }
 }
-
 
 
 if (document.getElementById('example')) {

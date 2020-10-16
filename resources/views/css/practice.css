@@ -1,0 +1,52 @@
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color:#fff;
+}
+
+.header{
+    background-color: #1b1310;
+    color: #fff;
+    height: 74px;
+    /*要素の横並び(flexbox)*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*左右の余白*/
+    padding:0 120px;
+    /*下線*/
+    border-bottom: 1px solid #fff;
+}
+
+.nav-list{
+    /*navの横並び*/
+    display: flex;
+}
+
+.nav-item{
+    /*メニューの右側に余白*/
+    margin-right: 55px;
+}
+
+.fv{
+    /*画面の高さを９０に指定*/
+    height: 90vh;
+    /*背景画像の設定*/
+    background-color: #141414;
+    /*メインコピーの上下左右中央寄せ*/
+    display: flex;
+    /*アイテムを中央に寄せる*/
+    justify-content: center;
+    /*コンテナ内のアイテムを中央に寄せる*/
+    align-items: center;
+    /*積み重なるように配置*/
+    flex-direction: column;
+}
+
+.main-copy{
+    font-size: 5rem;
+    
+}
