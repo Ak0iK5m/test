@@ -109,15 +109,27 @@ body{
 
 /*news*/
 .card-list{
-    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
 }
 
 .card-item{
     margin:50px 0 0;
     background:#FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 0px 6px #1B131066;
+
+    height :350px;
+    width:320px;
 }
 
-.card-list li:first-child{
-    margin-top: 0;
+
+
+.text-news {
+    color:black;
+    
+}
+
+.news-position{
+    position: relative;
+    text-align: left;
 }
