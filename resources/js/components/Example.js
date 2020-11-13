@@ -58,17 +58,20 @@ export default class Example extends Component
                                 <h3 className="service-title">リリース時のサポートで<br></br>サービスのプランディングを</h3>
                                 <p className="section-text-service">弊社では、リリース時もサポートさせて頂きます。プレスリリース用のサイトや動画制作を通して、サービスのプランディングを行わせて頂きます。</p>
                             </div>
-                                <img srcSet="https://drive.google.com/uc?export=view&id=16l_4EvoVBKm1Vu8WesRIgisMZfCKjJZY"
-                                    alt="黒い布の上に置かれた黒い一眼レフカメラ" className="img-wrapper-service"></img>
+                            <div className="text-wrapper-service">
+                                <img  className="reverce-img"srcSet="https://drive.google.com/uc?export=view&id=16l_4EvoVBKm1Vu8WesRIgisMZfCKjJZY"
+                                    alt="黒い布の上に置かれた黒い一眼レフカメラ" ></img>
+                            </div>
                             
                         </div>       
                     </div>
 
                     <div className="content-inner">
                         <div className="reverce">
-                            <img srcSet="https://drive.google.com/uc?export=view&id=1Uif2Ch2m5pnIUuTWqEiZUCVe1qwu4UXG"
-                                alt="黒い布の上に置かれた黒い一眼レフカメラ"></img>
-
+                            <div className="text-wrapper-service">
+                                <img className="reverce-img" srcSet="https://drive.google.com/uc?export=view&id=1Uif2Ch2m5pnIUuTWqEiZUCVe1qwu4UXG"
+                                    alt="黒い布の上に置かれた黒い一眼レフカメラ"></img>
+                            </div>
                             <div className="text-wrapper-service">
                                 <h3 className="service-title">リリース時のサポートで<br></br>サービスのプランディングを</h3>
                                 <p className="section-text-service">弊社では、リリース時もサポートさせて頂きます。プレスリリース用のサイトや動画制作を通して、サービスのプランディングを行わせて頂きます。</p>

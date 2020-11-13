@@ -91,30 +91,27 @@
                 padding: 100px 15% 50px;
             }
 
-            .text-wrapper-service, .img-wrapper-service{
+            .text-wrapper-service{
                 width: 480px;
                 height: 280px;
                 text-align: left;
                 margin-top: 40px;
                 
             }
-
-            .text-wrapper-service{
-                margin-left: 70px;
-            }
             
+          
             .content-inner{
+                /* flex-wrap: wrap; */
                 display: flex;
-                flex-wrap: wrap;
-                justify-content: space-between;
-                align-items: 2.4px;
+                width: 1030px;
+                height: 280px;
+                margin-top: 20px;
             }
 
             .reverce{
                 display: flex;
-                margin-top: 50px;
-                display: flex;
-                
+                justify-content: space-between;
+                line-height:40px;
             }
 
             /*news*/
@@ -188,6 +185,11 @@
                 color: #fff;
                 background-color: #1b1310;
                 box-shadow: 0px 0px 6px #1b1310;
+            }
+
+            .reverce-img {
+                width: 480px;
+                height: 240px;
             }
 
         </style>

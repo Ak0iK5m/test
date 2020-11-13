@@ -65946,18 +65946,23 @@ var Example = /*#__PURE__*/function (_Component) {
         className: "service-title"
       }, "\u30EA\u30EA\u30FC\u30B9\u6642\u306E\u30B5\u30DD\u30FC\u30C8\u3067", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "\u30B5\u30FC\u30D3\u30B9\u306E\u30D7\u30E9\u30F3\u30C7\u30A3\u30F3\u30B0\u3092"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         className: "section-text-service"
-      }, "\u5F0A\u793E\u3067\u306F\u3001\u30EA\u30EA\u30FC\u30B9\u6642\u3082\u30B5\u30DD\u30FC\u30C8\u3055\u305B\u3066\u9802\u304D\u307E\u3059\u3002\u30D7\u30EC\u30B9\u30EA\u30EA\u30FC\u30B9\u7528\u306E\u30B5\u30A4\u30C8\u3084\u52D5\u753B\u5236\u4F5C\u3092\u901A\u3057\u3066\u3001\u30B5\u30FC\u30D3\u30B9\u306E\u30D7\u30E9\u30F3\u30C7\u30A3\u30F3\u30B0\u3092\u884C\u308F\u305B\u3066\u9802\u304D\u307E\u3059\u3002")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      }, "\u5F0A\u793E\u3067\u306F\u3001\u30EA\u30EA\u30FC\u30B9\u6642\u3082\u30B5\u30DD\u30FC\u30C8\u3055\u305B\u3066\u9802\u304D\u307E\u3059\u3002\u30D7\u30EC\u30B9\u30EA\u30EA\u30FC\u30B9\u7528\u306E\u30B5\u30A4\u30C8\u3084\u52D5\u753B\u5236\u4F5C\u3092\u901A\u3057\u3066\u3001\u30B5\u30FC\u30D3\u30B9\u306E\u30D7\u30E9\u30F3\u30C7\u30A3\u30F3\u30B0\u3092\u884C\u308F\u305B\u3066\u9802\u304D\u307E\u3059\u3002")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "text-wrapper-service"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        className: "reverce-img",
         srcSet: "https://drive.google.com/uc?export=view&id=16l_4EvoVBKm1Vu8WesRIgisMZfCKjJZY",
-        alt: "\u9ED2\u3044\u5E03\u306E\u4E0A\u306B\u7F6E\u304B\u308C\u305F\u9ED2\u3044\u4E00\u773C\u30EC\u30D5\u30AB\u30E1\u30E9",
-        className: "img-wrapper-service"
-      }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        alt: "\u9ED2\u3044\u5E03\u306E\u4E0A\u306B\u7F6E\u304B\u308C\u305F\u9ED2\u3044\u4E00\u773C\u30EC\u30D5\u30AB\u30E1\u30E9"
+      })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "content-inner"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "reverce"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "text-wrapper-service"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        className: "reverce-img",
         srcSet: "https://drive.google.com/uc?export=view&id=1Uif2Ch2m5pnIUuTWqEiZUCVe1qwu4UXG",
         alt: "\u9ED2\u3044\u5E03\u306E\u4E0A\u306B\u7F6E\u304B\u308C\u305F\u9ED2\u3044\u4E00\u773C\u30EC\u30D5\u30AB\u30E1\u30E9"
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "text-wrapper-service"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
         className: "service-title"
