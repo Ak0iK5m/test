@@ -39,32 +39,33 @@
 
             .drawer_menu ul li:nth-child(1){
                 /*ホームアイコン*/
-                background-image: url("../images/home.png")
+                list-style-image: url("../images/home.png")
             }
 
             .drawer_menu ul li:nth-child(2){
                 /*タスク*/
-                background-image: url("../images/report.png")
+                list-style-image: url("../images/task.png")
             }
 
             .drawer_menu ul li:nth-child(3){
                 /*トーク*/
-                background-image: url("../images/message-square.png")
+                list-style-image: url("../images/message-square.png")
             }
 
             .drawer_menu ul li:nth-child(4){
                 /*ノート*/
-                background-image: url("../images/book-open.png")
+                list-style-image: url("../images/book-open.png")
             }
 
             .drawer_menu ul li:nth-child(5){
                 /*ファイル共有*/
-                background-image: url("../images/folder.png")
+                list-style-image: url("../images/folder.png")
             }
 
             .drawer_menu ul li:nth-child(6){
                 /*レポート*/
-                background-image: url("images/report.png")
+                list-style-image: url("images/report.png")
+                
             }
 
 
