@@ -10,13 +10,25 @@
 
         <!-- Styles -->
         <style>
+            *{
+                margin: 0px;
+                padding: 0px;
+            }
             body{
+                color: #62ABB6;
+                font-size: 23px;
+                letter-spacing: 0.05em;
+                margin-left: auto;
+                margin-right: auto;
                 font-family: 'Noto Sans JP', 'sans-serif';
             }
 
             html{
             }
 
+            .side{
+                display: inline-block;
+            }
             /*ドロワーメニュー*/
             a{
                 text-decoration: none;
@@ -25,51 +37,32 @@
             .drawer_menu{
                 top: 0px; 
                 left: 0px;
-                width: 353px;
+                width: 250px;
                 height:1080px;
                 background: #62ABB6 0% 0% no-repeat padding-box;
-                position: sticky;
-                font: 'Noto Sans JP', Regular, 24px, #ffffff;
-                
             }
 
             .drawer_menu li{
                 list-style: none;
+                margin-bottom: 30px;
+                padding-left: 10px;
             }
 
-            .drawer_menu ul li:nth-child(1){
-                /*ホームアイコン*/
-                list-style-image: url("../images/home.png")
+            .search_box{
+                background: #CCE3E3;
+                position: fixed;
+                top: 0px;
             }
 
-            .drawer_menu ul li:nth-child(2){
-                /*タスク*/
-                list-style-image: url("../images/task.png")
+            .search{
+                margin: 30px 70px;
+                height: 40px;
+                border: none;
+                border-radius:4px;
+                color: #00697A;
+                display: inline-block;
+                font-family: FontAwesome;
             }
-
-            .drawer_menu ul li:nth-child(3){
-                /*トーク*/
-                list-style-image: url("../images/message-square.png")
-            }
-
-            .drawer_menu ul li:nth-child(4){
-                /*ノート*/
-                list-style-image: url("../images/book-open.png")
-            }
-
-            .drawer_menu ul li:nth-child(5){
-                /*ファイル共有*/
-                list-style-image: url("../images/folder.png")
-            }
-
-            .drawer_menu ul li:nth-child(6){
-                /*レポート*/
-                list-style-image: url("images/report.png")
-                
-            }
-
-
-
         </style>
     </head>
 

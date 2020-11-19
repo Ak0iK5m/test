@@ -9,27 +9,31 @@ export default class File_Sharing extends Component
 
         return(
             <div>
-            
-                {/*ドロワーメニュー*/}
-                <div className="drawer_menu">
-                    <ul className="drawer_menu_inner">
-                        <li><a href="">ホーム</a></li>
-                        <li><a href="">タスク</a></li>
-                        <li><a href="">トーク</a></li>
-                        <li><a href="">ノート</a></li>
-                        <li><a href="">ファイル共有</a></li>
-                        <li><a href="">レポート</a></li>
-                    </ul>                
+                <head>
+                <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet"/>
+                </head>
+
+                <div className="side">
+                    {/*ドロワーメニュー*/}
+                    <div className="drawer_menu">
+                        <ul className="drawer_menu_inner">
+                            <li><a href=""><i class="fas fa-home"></i>ホーム</a></li>
+                            <li><a href=""><i class="fas fa-tasks"></i>タスク</a></li>
+                            <li><a href=""><i class="far fa-comment-alt"></i>トーク</a></li>
+                            <li><a href=""><i class="fas fa-book-open"></i>ノート</a></li>
+                            <li><a href=""><i class="far fa-folder"></i>ファイル共有</a></li>
+                            <li><a href=""><i class="far fa-file-alt"></i>レポート</a></li>
+                        </ul>                
+                    </div>
                 </div>
-
-                {/*フォルダ*/}
-                <div className="folder">
-                    <header>
-                        <input type="text" className="search" placeholder="キーワードを入力"></input>
-                    </header>
+                <div className="side">
+                    {/*フォルダ*/}
+                    <div className="folder">
+                        <div className="search_box">
+                            <input type="text" className="search" placeholder="&#xf002; キーワードを入力"></input>
+                        </div>
+                    </div>
                 </div>
-
-
             </div>
         );
     }
