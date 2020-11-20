@@ -11,8 +11,8 @@ export default class File_Sharing extends Component
             <div>
                 <div className="side">
                     {/*ドロワーメニュー*/}
-                    <div className="drawer_menu">
-                        <ul className="drawer_menu_inner" id="drawer_menu">
+                    <div className="drawer-menu">
+                        <ul className="drawer-menu-inner" id="drawer-menu">
                             <li><a href=""><i class="fas fa-home"></i>ホーム</a></li>
                             <li><a href=""><i class="fas fa-tasks"></i>タスク</a></li>
                             <li><a href=""><i class="far fa-comment-alt"></i>トーク</a></li>
@@ -24,14 +24,19 @@ export default class File_Sharing extends Component
                 </div>
                 <div className="side">
                     {/*検索*/}
-                    <div className="search_box">
-                        <input type="text" className="search" placeholder="&#xf002; キーワードを入力"></input>
+                    <div className="search-box">
+                        <input type="text" className="search-text" placeholder="&#xF002;キーワードを入力"></input>
                     </div>
-                    {/*フォルダ追加*/}
-                    <div className="folder_add"><i class="fas fa-folder-plus"></i>追加</div>
-                    {/*フォルダ一覧*/}
+                    
                     <div className="folder">
-                        <ul className="folder_list">
+                        {/* フォルダ追加
+                        <div className="folder-add"><i class="fas fa-folder-plus"></i>追加</div> */}
+                        {/*フォルダ一覧*/}
+                        <ul className="folder-list">
+                            <li><a href=""><i class="far fa-folder"></i>テストフォルダ</a><a href=""><i class="fas fa-ellipsis-h"></i></a></li>
+                            <li><a href=""><i class="far fa-folder"></i>テストフォルダ</a><a href=""><i class="fas fa-ellipsis-h"></i></a></li>
+                            <li><a href=""><i class="far fa-folder"></i>テストフォルダ</a><a href=""><i class="fas fa-ellipsis-h"></i></a></li>
+                            <li><a href=""><i class="far fa-folder"></i>テストフォルダ</a><a href=""><i class="fas fa-ellipsis-h"></i></a></li>
                             <li><a href=""><i class="far fa-folder"></i>テストフォルダ</a><a href=""><i class="fas fa-ellipsis-h"></i></a></li>
                         </ul>
                     </div>

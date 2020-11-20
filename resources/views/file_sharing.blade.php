@@ -37,14 +37,14 @@
                 color:#ffffff;
             }
 
-            .drawer_menu{
+            .drawer-menu{
                 width: 18vw;
                 height:1080px;
                 background: #62ABB6;
                 list-style: none;
             }
 
-            ul.drawer_menu_inner li{
+            ul.drawer-menu-inner li{
                 margin-bottom: 30px;
                 padding-left: 25px;
             }
@@ -52,26 +52,27 @@
             
 
             /*検索*/
-            .search_box{
+            .search-box{
                 background: #CCE3E3;
                 position: fixed;
                 top: 0px;
                 
             }
 
-            .search{
+            .search-text{
                 margin: 30px 70px;
+                width: 24vw;
                 height: 40px;
                 border: none;
                 border-radius:4px;
                 color: #00697A;
-                font-family: 'Noto Sans JP', 'sans-serif';
+                font-family: 'FontAwesome';
             }
 
             /*フォルダー追加*/
-            .folder_add{
+            .folder-add{
                 height: 50px;
-                width: 345px;
+                
                 background: #FFFFFF;
                 color: #00697A;
                 position: fixed;
@@ -79,11 +80,12 @@
                 line-height: 50px;
                 text-align: center;
                 letter-spacing: 10px;
+                margin: 0 auto;
             }
 
             .folder{
                 list-style: none;
-                border: dashed red;
+                width: 24vw;
             }
         </style>
     </head>
