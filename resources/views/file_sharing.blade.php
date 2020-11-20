@@ -7,6 +7,7 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+        <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet"/>
 
         <!-- Styles -->
         <style>
@@ -16,7 +17,7 @@
             }
             body{
                 color: #62ABB6;
-                font-size: 23px;
+                font-size: 21px;
                 letter-spacing: 0.05em;
                 margin-left: auto;
                 margin-right: auto;
@@ -24,6 +25,7 @@
             }
 
             html{
+                
             }
 
             .side{
@@ -34,24 +36,27 @@
                 text-decoration: none;
                 color:#ffffff;
             }
+
             .drawer_menu{
-                top: 0px; 
-                left: 0px;
-                width: 250px;
+                width: 18vw;
                 height:1080px;
-                background: #62ABB6 0% 0% no-repeat padding-box;
-            }
-
-            .drawer_menu li{
+                background: #62ABB6;
                 list-style: none;
-                margin-bottom: 30px;
-                padding-left: 10px;
             }
 
+            ul.drawer_menu_inner li{
+                margin-bottom: 30px;
+                padding-left: 25px;
+            }
+
+            
+
+            /*検索*/
             .search_box{
                 background: #CCE3E3;
                 position: fixed;
                 top: 0px;
+                
             }
 
             .search{
@@ -60,8 +65,25 @@
                 border: none;
                 border-radius:4px;
                 color: #00697A;
-                display: inline-block;
-                font-family: FontAwesome;
+                font-family: 'Noto Sans JP', 'sans-serif';
+            }
+
+            /*フォルダー追加*/
+            .folder_add{
+                height: 50px;
+                width: 345px;
+                background: #FFFFFF;
+                color: #00697A;
+                position: fixed;
+                top: 100px;
+                line-height: 50px;
+                text-align: center;
+                letter-spacing: 10px;
+            }
+
+            .folder{
+                list-style: none;
+                border: dashed red;
             }
         </style>
     </head>

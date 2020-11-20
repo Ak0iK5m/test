@@ -9,14 +9,10 @@ export default class File_Sharing extends Component
 
         return(
             <div>
-                <head>
-                <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet"/>
-                </head>
-
                 <div className="side">
                     {/*ドロワーメニュー*/}
                     <div className="drawer_menu">
-                        <ul className="drawer_menu_inner">
+                        <ul className="drawer_menu_inner" id="drawer_menu">
                             <li><a href=""><i class="fas fa-home"></i>ホーム</a></li>
                             <li><a href=""><i class="fas fa-tasks"></i>タスク</a></li>
                             <li><a href=""><i class="far fa-comment-alt"></i>トーク</a></li>
@@ -27,11 +23,17 @@ export default class File_Sharing extends Component
                     </div>
                 </div>
                 <div className="side">
-                    {/*フォルダ*/}
+                    {/*検索*/}
+                    <div className="search_box">
+                        <input type="text" className="search" placeholder="&#xf002; キーワードを入力"></input>
+                    </div>
+                    {/*フォルダ追加*/}
+                    <div className="folder_add"><i class="fas fa-folder-plus"></i>追加</div>
+                    {/*フォルダ一覧*/}
                     <div className="folder">
-                        <div className="search_box">
-                            <input type="text" className="search" placeholder="&#xf002; キーワードを入力"></input>
-                        </div>
+                        <ul className="folder_list">
+                            <li><a href=""><i class="far fa-folder"></i>テストフォルダ</a><a href=""><i class="fas fa-ellipsis-h"></i></a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
