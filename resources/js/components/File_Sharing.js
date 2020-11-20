@@ -25,7 +25,7 @@ export default class File_Sharing extends Component
                 <div className="side">
                     {/*検索*/}
                     <div className="search-box">
-                        <input type="text" className="search-text" placeholder="&#xF002;キーワードを入力"></input>
+                        <input type="text" className="search-text" placeholder="&#xf002;キーワードを入力"></input>
                     </div>
                     
                     <div className="folder">

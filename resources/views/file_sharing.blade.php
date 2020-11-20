@@ -42,6 +42,7 @@
                 height:1080px;
                 background: #62ABB6;
                 list-style: none;
+                
             }
 
             ul.drawer-menu-inner li{
@@ -83,10 +84,14 @@
                 margin: 0 auto;
             }
 
+            /*フォルダ一覧*/
             .folder{
-                list-style: none;
                 width: 24vw;
             }
+            .folder-list{
+                list-style: none;
+            }
+
         </style>
     </head>
 
