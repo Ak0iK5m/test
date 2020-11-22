@@ -90,14 +90,34 @@
                 top: 50px; */
                 position: fixed;
                 top: 100px;   
+                
             }
             .folder-list{
                 list-style: none;
+                margin-left: 50px;
             }
 
             a.folder-a{
                 text-decoration: none;
                 color: #00697A;
+            }
+
+            .fa-folder{
+                color: #00697A;
+                
+            }
+
+            /*ファイル共有*/
+            .file_sharing{
+                background: #E9F2F3;
+                width: 60vw;
+                position: fixed;
+                top: 100px;
+            }
+
+            h6{
+                color: #8AA0A0;
+                font-weight: 450;
             }
         </style>
     </head>
