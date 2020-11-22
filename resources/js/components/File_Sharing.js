@@ -12,13 +12,13 @@ export default class File_Sharing extends Component
                 <div className="side">
                     {/*ドロワーメニュー*/}
                     <div className="drawer-menu">
-                        <ul className="drawer-menu-inner" id="drawer-menu">
-                            <li><a href=""><i class="fas fa-home"></i>ホーム</a></li>
-                            <li><a href=""><i class="fas fa-tasks"></i>タスク</a></li>
-                            <li><a href=""><i class="far fa-comment-alt"></i>トーク</a></li>
-                            <li><a href=""><i class="fas fa-book-open"></i>ノート</a></li>
-                            <li><a href=""><i class="far fa-folder"></i>ファイル共有</a></li>
-                            <li><a href=""><i class="far fa-file-alt"></i>レポート</a></li>
+                        <ul className="drawer-menu-inner">
+                            <li><a href="" className="drawer-menu-a"><i class="fas fa-home"></i>ホーム</a></li>
+                            <li><a href="" className="drawer-menu-a"><i class="fas fa-tasks"></i>タスク</a></li>
+                            <li><a href="" className="drawer-menu-a"><i class="far fa-comment-alt"></i>トーク</a></li>
+                            <li><a href="" className="drawer-menu-a"><i class="fas fa-book-open"></i>ノート</a></li>
+                            <li><a href="" className="drawer-menu-a"><i class="far fa-folder"></i>ファイル共有</a></li>
+                            <li><a href="" className="drawer-menu-a"><i class="far fa-file-alt"></i>レポート</a></li>
                         </ul>                
                     </div>
                 </div>
@@ -33,11 +33,11 @@ export default class File_Sharing extends Component
                         <div className="folder-add"><i class="fas fa-folder-plus"></i>追加</div> */}
                         {/*フォルダ一覧*/}
                         <ul className="folder-list">
-                            <li><a href=""><i class="far fa-folder"></i>テストフォルダ</a><a href=""><i class="fas fa-ellipsis-h"></i></a></li>
-                            <li><a href=""><i class="far fa-folder"></i>テストフォルダ</a><a href=""><i class="fas fa-ellipsis-h"></i></a></li>
-                            <li><a href=""><i class="far fa-folder"></i>テストフォルダ</a><a href=""><i class="fas fa-ellipsis-h"></i></a></li>
-                            <li><a href=""><i class="far fa-folder"></i>テストフォルダ</a><a href=""><i class="fas fa-ellipsis-h"></i></a></li>
-                            <li><a href=""><i class="far fa-folder"></i>テストフォルダ</a><a href=""><i class="fas fa-ellipsis-h"></i></a></li>
+                            <li><a href="" className="folder-a"><i class="far fa-folder"></i>テストフォルダ</a><a href=""><i class="fas fa-ellipsis-h"></i></a></li>
+                            <li><a href="" className="folder-a"><i class="far fa-folder"></i>テストフォルダ</a><a href=""><i class="fas fa-ellipsis-h"></i></a></li>
+                            <li><a href="" className="folder-a"><i class="far fa-folder"></i>テストフォルダ</a><a href=""><i class="fas fa-ellipsis-h"></i></a></li>
+                            <li><a href="" className="folder-a"><i class="far fa-folder"></i>テストフォルダ</a><a href=""><i class="fas fa-ellipsis-h"></i></a></li>
+                            <li><a href="" className="folder-a"><i class="far fa-folder"></i>テストフォルダ</a><a href=""><i class="fas fa-ellipsis-h"></i></a></li>
                         </ul>
                     </div>
                 </div>

@@ -32,7 +32,7 @@
                 display: inline-block;
             }
             /*ドロワーメニュー*/
-            a{
+            a.drawer-menu-a{
                 text-decoration: none;
                 color:#ffffff;
             }
@@ -42,7 +42,6 @@
                 height:1080px;
                 background: #62ABB6;
                 list-style: none;
-                
             }
 
             ul.drawer-menu-inner li{
@@ -57,7 +56,6 @@
                 background: #CCE3E3;
                 position: fixed;
                 top: 0px;
-                
             }
 
             .search-text{
@@ -74,7 +72,6 @@
             /*フォルダー追加*/
             .folder-add{
                 height: 50px;
-                
                 background: #FFFFFF;
                 color: #00697A;
                 position: fixed;
@@ -88,11 +85,20 @@
             /*フォルダ一覧*/
             .folder{
                 width: 24vw;
+                height:981px;
+                /* position: fixed;
+                top: 50px; */
+                position: fixed;
+                top: 100px;   
             }
             .folder-list{
                 list-style: none;
             }
 
+            a.folder-a{
+                text-decoration: none;
+                color: #00697A;
+            }
         </style>
     </head>
 
