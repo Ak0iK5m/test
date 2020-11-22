@@ -67,7 +67,8 @@
                 border: none;
                 border-radius:4px;
                 color: #00697A;
-                font-family: 'FontAwesome';
+                font-family: "Font Awesome 5 Free", 'Noto Sans JP', 'sans-serif';
+                font-weight: 600;
             }
 
             /*フォルダー追加*/
