@@ -25,34 +25,42 @@ export default class File_Sharing extends Component
 
                 <div className="side">
                     {/*検索*/}
-                    <div className="search-box">
-                        <input type="text" className="search-text" placeholder="&#xf002;キーワードを入力"></input>
-                    </div>
-                    
                     <div className="folder">
+                        <input type="text" className="search-text" placeholder="&#xf002;キーワードを入力"></input>
                         {/* フォルダ追加
                         <div className="folder-add"><i class="fas fa-folder-plus"></i>追加</div> */}
                         {/*フォルダ一覧*/}
-                        <ul className="folder-list">
-                            <li><a href="" className="folder-a"><i class="far fa-folder"></i>テストフォルダ</a><a href=""><i class="fas fa-ellipsis-h"></i></a></li>
-                            <li><a href="" className="folder-a"><i class="far fa-folder"></i>テストフォルダ</a><a href=""><i class="fas fa-ellipsis-h"></i></a></li>
-                            <li><a href="" className="folder-a"><i class="far fa-folder"></i>テストフォルダ</a><a href=""><i class="fas fa-ellipsis-h"></i></a></li>
-                            <li><a href="" className="folder-a"><i class="far fa-folder"></i>テストフォルダ</a><a href=""><i class="fas fa-ellipsis-h"></i></a></li>
-                            <li><a href="" className="folder-a"><i class="far fa-folder"></i>テストフォルダ</a><a href=""><i class="fas fa-ellipsis-h"></i></a></li>
-                        </ul>
+                        <div className="back-white">
+                            <ul className="folder-list">
+                                <li><a href="" className="folder-a"><i class="far fa-folder folder-icon"></i>テストフォルダ</a><a href=""><i class="fas fa-ellipsis-h"></i></a></li>
+                                <li><a href="" className="folder-a"><i class="far fa-folder folder-icon"></i>テストフォルダ</a><a href=""><i class="fas fa-ellipsis-h"></i></a></li>
+                                <li><a href="" className="folder-a"><i class="far fa-folder folder-icon"></i>テストフォルダ</a><a href=""><i class="fas fa-ellipsis-h"></i></a></li>
+                                <li><a href="" className="folder-a"><i class="far fa-folder folder-icon"></i>テストフォルダ</a><a href=""><i class="fas fa-ellipsis-h"></i></a></li>
+                                <li><a href="" className="folder-a"><i class="far fa-folder folder-icon"></i>テストフォルダ</a><a href=""><i class="fas fa-ellipsis-h"></i></a></li>
+                                <li><a href="" className="folder-a"><i class="far fa-folder folder-icon"></i>テストフォルダ</a><a href=""><i class="fas fa-ellipsis-h"></i></a></li>
+                                <li><a href="" className="folder-a"><i class="far fa-folder folder-icon"></i>テストフォルダ</a><a href=""><i class="fas fa-ellipsis-h"></i></a></li>
+                                <li><a href="" className="folder-a"><i class="far fa-folder folder-icon"></i>テストフォルダ</a><a href=""><i class="fas fa-ellipsis-h"></i></a></li>
+                                <li><a href="" className="folder-a"><i class="far fa-folder folder-icon"></i>テストフォルダ</a><a href=""><i class="fas fa-ellipsis-h"></i></a></li>
+                                <li><a href="" className="folder-a"><i class="far fa-folder folder-icon"></i>テストフォルダ</a><a href=""><i class="fas fa-ellipsis-h"></i></a></li>
+                                <li><a href="" className="folder-a"><i class="far fa-folder folder-icon"></i>テストフォルダ</a><a href=""><i class="fas fa-ellipsis-h"></i></a></li>
+                                <li><a href="" className="folder-a"><i class="far fa-folder folder-icon"></i>テストフォルダ</a><a href=""><i class="fas fa-ellipsis-h"></i></a></li>
+                                <li><a href="" className="folder-a"><i class="far fa-folder folder-icon"></i>テストフォルダ</a><a href=""><i class="fas fa-ellipsis-h"></i></a></li>
+                                <li><a href="" className="folder-a"><i class="far fa-folder folder-icon"></i>テストフォルダ</a><a href=""><i class="fas fa-ellipsis-h"></i></a></li>
+                                <li><a href="" className="folder-a"><i class="far fa-folder folder-icon"></i>テストフォルダ</a><a href=""><i class="fas fa-ellipsis-h"></i></a></li>
+                                <li><a href="" className="folder-a"><i class="far fa-folder folder-icon"></i>テストフォルダ</a><a href=""><i class="fas fa-ellipsis-h"></i></a></li>
+                                <li><a href="" className="folder-a"><i class="far fa-folder folder-icon"></i>テストフォルダ</a><a href=""><i class="fas fa-ellipsis-h"></i></a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
 
+                {/*ファイル共有*/}
                 <div className="side">
-                    {/*ファイル共有*/}
-                    <div className="side">
-                        <div className="file_sharing">
+                    <div className="file_sharing">
+                        <div className="file_title">
                             <h5>ファイル共有</h5>
                             <h6>フォルダ名</h6>
-                        </div>
-                    </div>
-                    <div className="side">
-                        <i class="fas fa-cloud-download-alt"></i>
+                        </div>                            
                     </div>
                 </div>
             </div>
