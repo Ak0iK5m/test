@@ -28,9 +28,16 @@
                 
             }
 
-            .side{
-                /* display: inline-block; */
-                display: flex;
+            .box2{
+                width:18vw;
+            }
+
+            .box3{
+                width: 24vw;
+            }
+
+            .box4{
+                width: 60vw;
             }
             /*ドロワーメニュー*/
             a.drawer-menu-a{

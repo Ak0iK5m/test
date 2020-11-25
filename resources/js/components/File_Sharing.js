@@ -8,8 +8,8 @@ export default class File_Sharing extends Component
     {
 
         return(
-            <div>
-                <div className="side">
+            <div className="box1">
+                <div className="box2">
                     {/*ドロワーメニュー*/}
                     <div className="drawer-menu">
                         <ul className="drawer-menu-inner">
@@ -23,7 +23,7 @@ export default class File_Sharing extends Component
                     </div>
                 </div>
 
-                <div className="side">
+                <div className="box3">
                     {/*検索*/}
                     <div className="folder">
                         <input type="text" className="search-text" placeholder="&#xf002;キーワードを入力"></input>
@@ -55,13 +55,17 @@ export default class File_Sharing extends Component
                 </div>
 
                 {/*ファイル共有*/}
-                <div className="side">
+                <div className="box4">
                     <div className="file_sharing">
                         <div className="file_title">
                             <h5>ファイル共有</h5>
                             <h6>フォルダ名</h6>
                         </div>                            
                     </div>
+                </div>
+
+                <div className="box5">
+                    
                 </div>
             </div>
         );
