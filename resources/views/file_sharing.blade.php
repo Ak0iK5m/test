@@ -34,10 +34,23 @@
 
             .box3{
                 width: 24vw;
+                /* left: 24vw; */
+                background: #CCE3E3;
+                position: fixed;
+                top: 0px;
+                left: 18vw;
+                border: solid #E0E0E0 1px;
+                overflow-y: scroll;
             }
 
             .box4{
-                width: 60vw;
+                /* width: calc(100% - 42vw); */
+
+            }
+
+            .box5{
+                width: calc(100% - 42vw);
+
             }
             /*ドロワーメニュー*/
             a.drawer-menu-a{
@@ -71,18 +84,18 @@
                 overflow-y: scroll;
             }
 
-            .folder{
+            /* .folder{
                 background: #CCE3E3;
                 position: fixed;
                 top: 0px;
                 left: 18vw;
                 border: solid #E0E0E0 1px;
-            }
+            } */
 
             .search-text{
                 height: 40px;
-                width: 24vw;
-                margin: 30px 70px;
+                width: calc(24vw - 80px);
+                margin: 20px 40px;
                 border: none;
                 border-radius:4px;
                 color: #00697A;
@@ -134,8 +147,7 @@
             /*ファイル共有*/
             .file_sharing{
                 background: #E9F2F3;
-                width: 40vw;
-                height: 100px;
+                width: calc(100% - 42vw);
                 position: fixed;
                 top: 0px;
                 left: 42vw;
