@@ -17,7 +17,6 @@
             }
             body{
                 color: #62ABB6;
-                font-size: 21px;
                 letter-spacing: 0.05em;
                 margin-left: auto;
                 margin-right: auto;
@@ -25,7 +24,13 @@
             }
 
             html{
-                
+                font-size: 112%;
+            }
+
+            @media screen and (min-width: 50%){
+                html{
+                    font-size: 30%;
+                }
             }
 
             .box2{
@@ -45,11 +50,11 @@
 
             .box4{
                 /* width: calc(100% - 42vw); */
-
+                
             }
 
             .box5{
-                width: calc(100% - 42vw);
+                /* width: calc(100% - 42vw); */
 
             }
             /*ドロワーメニュー*/
@@ -137,7 +142,8 @@
             }
 
             .folder-icon{
-                margin-right: 50px;
+                right: 38px;
+                margin-right:20px;
             }
             
             .fa-ellipsis-h{
@@ -165,6 +171,15 @@
                 font-weight: 450;
                 margin-top: 26px;
                 margin-left: 15px;
+            }
+
+            .circle{
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                background: white;
+                text-align: center;
+                line-height: 35px;
             }
         </style>
     </head>
