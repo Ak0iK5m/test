@@ -15,87 +15,90 @@
                 margin: 0px;
                 padding: 0px;
             }
-            body{
-                color: #62ABB6;
-                letter-spacing: 0.05em;
-                margin-left: auto;
-                margin-right: auto;
-                font-family: 'Noto Sans JP', 'sans-serif';
+
+            html,body {
+                display:flex;
+                height:100vh;
+                width:100vw;
+                padding:0;
+                margin:0 auto;
+                font-size:4vm;
             }
 
-            html{
-                font-size: 112%;
-            }
-
-            @media screen and (min-width: 50%){
-                html{
-                    font-size: 30%;
-                }
-            }
-
-            .box2{
+            .side-menu {
                 width:18vw;
+                height:100vh;
+                background-color:#62ABB6;
             }
 
-            .box3{
-                width: 24vw;
-                /* left: 24vw; */
-                background: #CCE3E3;
-                position: fixed;
-                top: 0px;
-                left: 18vw;
+            .side-menu > ul > li > a {
+                display:flex;
+                align-items:center;
+            }
+            
+            .main-menu {
+                display:flex;
+                height:100vh;
+                width:calc(100vw - 18vw);
+            }
+
+            .folder-menu {
+                width:24vw;
+                height:100vh;
+                background-color:#CCE3E3;
+                overflow-y:scroll;
+                overflow-x:hidden;
                 border: solid #E0E0E0 1px;
-                overflow-y: scroll;
+        
+            }
+        
+            .main-contents {
+                height:100vh;
+                width:58vw;
+                background-color:gray;
+            }
+            .main-header {
+                background-color:green;
+                height:80px;
+                width:58vw;
+                top:0px;
+                position:absolute;
+                display:flex;
+            }
+            .my-header {
+                width:60%;
+                background-color: #E9F2F3;
+            }
+            .account-settings {
+                width:40%;
+                background-color:#E9F2F3;
+            }
+            .main-item {
+                background-color: #FFFFFF;
+                height:calc(100vh - 80px);
+                width:58vw;
+                top:80px;
+                position:absolute;
+            }
+            
+            ul {
+                list-style:none;
+                padding:0;
+                margin:0;
             }
 
-            .box4{
-                /* width: calc(100% - 42vw); */
+            li a {
+                height:50px;
+                width : 100%;
+                color:white;
+                text-align:left;
+                font-size:100%;
+                display:block;
+                text-decoration:none;
+                padding-left:20px;
                 
             }
 
-            .box5{
-                /* width: calc(100% - 42vw); */
-
-            }
-            /*ドロワーメニュー*/
-            a.drawer-menu-a{
-                text-decoration: none;
-                color:#ffffff;
-                display: block;
-            }
-
-            a.drawer-menu-a:hover{
-                background-color: #4B8999;
-            }
-
-            .drawer-menu{
-                width: 18vw;
-                height:100vw;
-                position: fixed;
-                top: 0px;
-                left: 0px;
-                background: #62ABB6;
-                list-style: none;
-            }
-
-            ul.drawer-menu-inner li{
-                margin-bottom: 30px;
-                padding-left: 25px;
-            }
-
-            /*検索*/
-            .back-white{
-                background: #fff;
-                overflow-y: scroll;
-            }
-
-            /* .folder{
-                background: #CCE3E3;
-                position: fixed;
-                top: 0px;
-                left: 18vw;
-                border: solid #E0E0E0 1px;
-            } */
 
             .search-text{
                 height: 40px;
@@ -106,33 +109,23 @@
                 color: #00697A;
                 font-family: "Font Awesome 5 Free", 'Noto Sans JP', 'sans-serif';
                 font-weight: 600;
+                position:fixed;
             }
 
-            /*フォルダー追加*/
-            .folder-add{
-                height: 50px;
-                background: #FFFFFF;
-                color: #00697A;
+            .folder-list{
                 position: fixed;
-                top: 100px;
-                line-height: 50px;
-                text-align: center;
-                letter-spacing: 10px;
-                margin: 0 auto;
+                height: calc(100vh - 40px);
+                top: 80px;
+                overflow-x: scroll;
             }
-
-            /*フォルダ一覧*/
-            ul.folder-list{
-                list-style: none;
-                /* height: 100vw; */
-                display: block;
-                text-align: center;
-            }
-
-            .folder-list li{
+            
+            .folder-list > li{
+                border:solid 1px white;
+                height:80px;
+                width:100%;
+                display:flex;
+                align-items:center;
                 background: #E9F2F3;
-                margin-bottom: 10px;
-                height: 60px;
             }
 
             a.folder-a , .folder-icon,.fa-ellipsis-h{
@@ -150,41 +143,57 @@
                 margin-left: 90px;
             }
 
-            /*ファイル共有*/
-            .file_sharing{
-                background: #E9F2F3;
-                width: calc(100% - 42vw);
-                position: fixed;
-                top: 0px;
-                left: 42vw;
+            h5{
+                color:#62ABB6;
             }
 
-            .file_title{
-                margin-top: 25px;
+            .folder-color{
+                color:#8AA0A0;
             }
             
-            h5{
-                margin-left: 15px;
-            }
-            h6{
-                color: #8AA0A0;
-                font-weight: 450;
-                margin-top: 26px;
-                margin-left: 15px;
-            }
-
             .circle{
-                width: 40px;
-                height: 40px;
+                width: 48px;
+                height: 48px;
                 border-radius: 50%;
                 background: white;
                 text-align: center;
-                line-height: 35px;
+                line-height: 36px;
             }
+
+            .icon{
+                display:flex;
+            }
+
+            /* .divider{
+                width: 10px;
+                background-color: #CCE3E3;
+                height: 40px;
+                margin-left: 100px;
+            } */
+
+            .header-font{
+                font-size:12px;
+            }
+
+            .account-settings{
+                border-left:solid #CCE3E3;
+            }
+            
         </style>
     </head>
 
     <body>
+    <div class="side-menu">
+        <ul>
+            <li><a href="#"><i class="fas fa-home"></i><span>ホーム</span></a></li>
+            <li><a href="#"><i class="fas fa-tasks"></i><span>タスク</span></a></li>
+            <li><a href="#"><i class="far fa-comment-alt"></i><span>トーク</span></a></li>
+            <li><a href="#"><i class="fas fa-book-open"></i><span>ノート</span></a></li>
+            <li><a href="#"><i class="far fa-folder"></i><span>ファイル共有</span></a></li>
+            <li><a href="#"><i class="far fa-file-alt"></i><span>レポート</span></a></li>
+
+        </ul>
+    </div>
         <div id="file_sharing"></div>
         <script src="{{asset('/js/app.js')}}">
         </script>
