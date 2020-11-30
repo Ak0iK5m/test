@@ -55,7 +55,8 @@
             .main-contents {
                 height:100vh;
                 width:58vw;
-                background-color:gray;
+                background-color:white;
+                
             }
             .main-header {
                 /* background-color:green; */
@@ -65,25 +66,41 @@
                 top:0px;
                 position:absolute;
                 display:flex;
-                
+                                
             }
             .my-header {
-                width:60%;
+                /* width:60%;
                 background-color: #E9F2F3;
                 position:absolute;
-                display:inline-block;
+                display:inline-block; */
+                /* display:flex;
+                margin-left:0; */
+                width:60%;
+                color:#8aa0a0;
+                background-color:#e9f2f3;
+                
+                display:flex;
             }
+
+            .my-header-title{
+                width:40%;
+                background-color:#e9f2f3;
+            }
+
+            .my-header-items {
+                display: flex;
+                width:60%;
+                background-color:#E9F2F3;
+                justify-content: center;
+            }
+         
+
             .account-settings {
                 width:40%;
-                /* background-color:#E9F2F3; */
                 border-left:solid #CCE3E3;
-                /* position:absolute; */
-                /* display:inline-block; */
             }
             .main-item {
                 background-color: #FFFFFF;
-                height:calc(100vh - 80px);
-                width:58vw;
                 top:80px;
                 position:absolute;
             }
@@ -159,29 +176,21 @@
             }
             
             .circle{
-                width: 48px;
-                height: 48px;
+                width: 40px;
+                height: 40px;
                 border-radius: 50%;
                 background: white;
                 text-align: center;
                 line-height: 36px;
             }
 
-            .icon{
-                display:flex;
-            }
-
-            /* .divider{
-                width: 10px;
-                background-color: #CCE3E3;
-                height: 40px;
-                margin-left: 100px;
-            } */
-
             .header-font{
-                font-size:12px;
+                font-size:10px;
             }
             
+            .icon-size{
+                /* width:40vw; */
+            }
         </style>
     </head>
 
