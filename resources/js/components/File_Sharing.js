@@ -45,8 +45,7 @@ export default class File_Sharing extends Component
                                 <p className="folder-color header-font">共有ユーザ追加</p>
                                
                             </div>
-                        </div>
-                        <div className="account-settings">
+                            <div className="account-settings">
                                 <a href="" className="circle"><i class="far fa-user folder-color"></i></a>
                                 <p className="folder-color header-font">アカウント</p>
                                 <a href="" className="circle"><i class="far fa-bell folder-color"></i></a>
@@ -55,7 +54,9 @@ export default class File_Sharing extends Component
                                 <p className="folder-color header-font">設定</p>
                                 <a href="" className="circle"><i class="far fa-question-circle folder-color"></i></a>
                                 <p className="folder-color header-font">ヘルプ</p>
+                            </div>
                         </div>
+                        
                     </div>
                     <div className="main-item"></div>
                 </div>

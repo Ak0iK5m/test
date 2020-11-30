@@ -58,20 +58,27 @@
                 background-color:gray;
             }
             .main-header {
-                background-color:green;
+                /* background-color:green; */
+                background:#E9F2F3;
                 height:80px;
                 width:58vw;
                 top:0px;
                 position:absolute;
                 display:flex;
+                
             }
             .my-header {
                 width:60%;
                 background-color: #E9F2F3;
+                position:absolute;
+                display:inline-block;
             }
             .account-settings {
                 width:40%;
-                background-color:#E9F2F3;
+                /* background-color:#E9F2F3; */
+                border-left:solid #CCE3E3;
+                /* position:absolute; */
+                /* display:inline-block; */
             }
             .main-item {
                 background-color: #FFFFFF;
@@ -173,10 +180,6 @@
 
             .header-font{
                 font-size:12px;
-            }
-
-            .account-settings{
-                border-left:solid #CCE3E3;
             }
             
         </style>
