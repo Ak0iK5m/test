@@ -72,6 +72,7 @@
                 background-color: #E9F2F3;
                 position:absolute;
                 display:inline-block;
+                
             }
             .account-settings {
                 width:40%;
@@ -169,6 +170,7 @@
 
             .icon{
                 display:flex;
+                flex-flow:row wrap;
             }
 
             /* .divider{
