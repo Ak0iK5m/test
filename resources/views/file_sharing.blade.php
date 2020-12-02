@@ -135,28 +135,24 @@
             }
 
             .my-header {
-                width:60%;
+                width:70%;
                 background-color: #E9F2F3;
                 color:#8aa0a0;
-                position:absolute;
-                /* display:inline-block; */
                 display:flex;
-                /* align-items:center; */
+                margin-left:0;
+                
             }
 
             .account-settings {
-                width:20%;
-                /* background-color:#E9F2F3; */
+                width:30%;
                 border-left:solid #CCE3E3;
-                /* position:absolute; */
-                /* display:inline-block; */
                 display:flex;
                 flex-flow:row;
+                justify-content:center;
             }
 
             .main-item {
-                /* background-color: #FFFFFF; */
-                background-color:#CCE3E3;
+                background-color: #FFFFFF;
                 height:calc(100vh - 80px);
                 width:58vw;
                 top:80px;
@@ -165,6 +161,10 @@
             
             h5{
                 color:#62ABB6;
+            }
+
+            h6{
+                margin-top:10px;
             }
 
             .my-header-font-color{
@@ -191,6 +191,8 @@
             .my-header-title{
                 width:40%;
                 background-color:#e9f2f3;
+                margin-top:20px;
+                margin-left:10px;
             }
 
             .my-header-items-section{

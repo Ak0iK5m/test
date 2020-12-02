@@ -66097,7 +66097,7 @@ var File_Sharing = /*#__PURE__*/function (_Component) {
         "class": "fas fa-user-plus my-header-font-color"
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         className: "my-header-font-color header-font"
-      }, "\u5171\u6709\u30E6\u30FC\u30B6\u8FFD\u52A0"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, "\u5171\u6709\u30E6\u30FC\u30B6\u8FFD\u52A0")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "account-settings"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
         className: "my-header-items-section"
@@ -66135,7 +66135,7 @@ var File_Sharing = /*#__PURE__*/function (_Component) {
         "class": "far fa-question-circle my-header-font-color"
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         className: "my-header-font-color header-font"
-      }, "\u30D8\u30EB\u30D7"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, "\u30D8\u30EB\u30D7"), "                                "))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "main-item"
       })));
     }

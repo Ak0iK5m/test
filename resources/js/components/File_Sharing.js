@@ -53,25 +53,25 @@ export default class File_Sharing extends Component
                                 </section>
                                
                             </div>
-                            <div className="account-settings">
-                                <section className="my-header-items-section">
-                                    <a href="" className="circle"><i class="far fa-user my-header-font-color"></i></a>
-                                    <p className="my-header-font-color header-font">アカウント</p>
-                                </section>
-                                <section className="my-header-items-section">
-                                    <a href="" className="circle"><i class="far fa-bell my-header-font-color"></i></a>
-                                    <p className="my-header-font-color header-font">通知</p>
-                                </section>
-                                <section className="my-header-items-section">
-                                    <a href="" className="circle"><i class="fas fa-cog my-header-font-color"></i></a>
-                                    <p className="my-header-font-color header-font">設定</p>
-                                </section>
-                                <section className="my-header-items-section">
-                                    <a href="" className="circle"><i class="far fa-question-circle my-header-font-color"></i></a>
-                                    <p className="my-header-font-color header-font">ヘルプ</p>
-                                </section>
-                            </div>
                         </div>
+                        <div className="account-settings">
+                            <section className="my-header-items-section">
+                                <a href="" className="circle"><i class="far fa-user my-header-font-color"></i></a>
+                                <p className="my-header-font-color header-font">アカウント</p>
+                            </section>
+                            <section className="my-header-items-section">
+                                <a href="" className="circle"><i class="far fa-bell my-header-font-color"></i></a>
+                                <p className="my-header-font-color header-font">通知</p>
+                            </section>
+                            <section className="my-header-items-section">
+                                <a href="" className="circle"><i class="fas fa-cog my-header-font-color"></i></a>
+                                <p className="my-header-font-color header-font">設定</p>
+                            </section>
+                            <section className="my-header-items-section">
+                                <a href="" className="circle"><i class="far fa-question-circle my-header-font-color"></i></a>
+                                <p className="my-header-font-color header-font">ヘルプ</p>                                </section>
+                        </div>
+                        {/* </div> */}
                         
                     </div>
                     <div className="main-item"></div>
