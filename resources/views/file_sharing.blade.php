@@ -123,32 +123,38 @@
                 background-color:gray;
             }
 
-            .main-header {
-                /* background-color:green; */
+            /* .main-header {
+                /* background-color:green;
                 background:#E9F2F3;
                 height:80px;
-                width:58vw;
+                width:60vw;
                 top:0px;
                 position:absolute;
                 display:flex;
                 
-            }
+            } */
 
             .my-header {
-                width:70%;
+                width:40vw;
+                height:80px;
                 background-color: #E9F2F3;
                 color:#8aa0a0;
                 display:flex;
                 margin-left:0;
-                
+                position:fixed;
             }
 
             .account-settings {
-                width:30%;
+                width:20vw;
+                height:80px;
+                right:0px;
                 border-left:solid #CCE3E3;
+                background:#E9F2F3;
                 display:flex;
                 flex-flow:row;
                 justify-content:center;
+                top:0px;
+                position:fixed;
             }
 
             .main-item {
