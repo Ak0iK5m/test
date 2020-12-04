@@ -40,7 +40,11 @@ export default class File_Sharing extends Component
                         <div className="my-header-items">
                             <section className="my-header-items-section">
                                 <a href="" className="circle"><i class="fas fa-cloud-download-alt my-header-font-color"></i></a>
-                                <p className="my-header-font-color header-font">ダウンロード</p>
+                                <p className="my-header-font-color header-font" onClick={
+                                    function(){
+
+                                    }
+                                }>ダウンロード</p>
                             </section>
                             <section className="my-header-items-section">
                                 <a href="" className="circle"><i class="fas fa-cloud-upload-alt my-header-font-color"></i></a>
@@ -70,7 +74,45 @@ export default class File_Sharing extends Component
                             <a href="" className="circle"><i class="far fa-question-circle my-header-font-color"></i></a>
                             <p className="my-header-font-color header-font">ヘルプ</p>                                </section>
                     </div>
-                     <div className="main-item"></div>
+                     <div className="main-item">
+                         <table boder="0">
+                             <tr>
+                                 <th><a href="">ファイル名</a></th>
+                                 <th></th>
+                                 <th><a href="">ファイルサイズ</a></th>
+                                 <th>　</th>
+                                 <th><a href="">変更日</a></th>
+                             </tr>
+                             <tr>
+                                 <a href="">
+                                    <td><input type="checkbox"></input></td>
+                                    <td><i class="far fa-file"></i>サンプルファイル</td>
+                                    <td><i class="fas fa-ellipsis-h"></i></td>
+                                    <td>3.9MB</td>
+                                    <td>3日前</td>
+                                </a>
+                             </tr>
+                             <tr>
+                                 <a href="">
+                                    <td><input type="checkbox"></input></td>
+                                    <td><i class="far fa-file"></i>サンプルファイル</td>
+                                    <td><i class="fas fa-ellipsis-h"></i></td>
+                                    <td>3.9MB</td>
+                                    <td>3日前</td>
+                                </a>
+                             </tr>
+                             <tr>
+                                 <a href="">
+                                    <td><input type="checkbox"></input></td>
+                                    <td><i class="far fa-file"></i>サンプルファイル</td>
+                                    <td><i class="fas fa-ellipsis-h"></i></td>
+                                    <td>3.9MB</td>
+                                    <td>3日前</td>
+                                </a>
+                             </tr>
+                         </table>
+                        
+                     </div>
                 </div>
                 
             </div>
