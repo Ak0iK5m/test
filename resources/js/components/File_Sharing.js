@@ -75,20 +75,22 @@ export default class File_Sharing extends Component
                             <p className="my-header-font-color header-font">ヘルプ</p>                                </section>
                     </div>
                      <div className="main-item">
-                         <table border="1">
+                         <table border="0">
                              <tr>
-                                 <th><a href="">a</a></th>
-                                 <th><a href="">b</a></th>
+                                 <th></th>
+                                 <th></th>
                                  <th><a href="">ファイル名</a></th>
-                                 <th>ファイルサイズ</th>
-                                 <th>変更日</th>
+                                 <th></th>
+                                 <th><a href="">ファイルサイズ</a></th>
+                                 <th><a href="">変更日</a></th>
                              </tr>
                              
                              <tr>
                                  
                                     <td><input type="checkbox"></input></td>
-                                    <td><a href=""><i class="far fa-file"></i>サンプルファイル</a></td>
-                                    <td><i class="fas fa-ellipsis-h"></i></td>
+                                    <td><i class="far fa-file"></i></td>
+                                    <td><a href="">サンプルファイル</a></td>
+                                    <td><a href=""><i class="fas fa-ellipsis-h"></i></a></td>
                                     <td>3.9MB</td>
                                     <td>3日前</td>
                                 
@@ -96,8 +98,9 @@ export default class File_Sharing extends Component
                              <tr>
                                  
                                     <td><input type="checkbox"></input></td>
-                                    <td><i class="far fa-file"></i>サンプルファイル</td>
-                                    <td><i class="fas fa-ellipsis-h"></i></td>
+                                    <td><i class="far fa-file"></i></td>
+                                    <td><a href="">サンプルファイル</a></td>
+                                    <td><a href=""><i class="fas fa-ellipsis-h"></i></a></td>
                                     <td>3.9MB</td>
                                     <td>3日前</td>
                                 
@@ -105,8 +108,9 @@ export default class File_Sharing extends Component
                              <tr>
                                  {/* <a href=""> */}
                                     <td><input type="checkbox"></input></td>
-                                    <td><i class="far fa-file"></i>サンプルファイル</td>
-                                    <td><i class="fas fa-ellipsis-h"></i></td>
+                                    <td><i class="far fa-file"></i></td>
+                                    <td><a href="">サンプルファイル</a></td>
+                                    <td><a href=""><i class="fas fa-ellipsis-h"></i></a></td>
                                     <td>3.9MB</td>
                                     <td>3日前</td>
                                 {/* </a> */}
