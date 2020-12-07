@@ -24,6 +24,7 @@
                 margin:0 auto;
                 font-size:4vm;
                 font-family: 'Noto Sans JP', sans-serif;
+                position:fixed;
             }
 
             ul {
@@ -90,7 +91,6 @@
                 height: calc(100vh - 40px);
                 top: 80px;
                 overflow-x: scroll;
-                /* width:140px; */
                 width:24vw;
                 text-align:center;
             }
@@ -108,7 +108,6 @@
             a.folder-a , .folder-icon,.fa-ellipsis-h{
                 text-decoration: none;
                 color: #00697A;
-                /* margin-bottom: 30px; */
             }
 
             .folder-icon{
@@ -127,17 +126,6 @@
                 width:58vw;
                 background-color:gray;
             }
-
-            /* .main-header {
-                /* background-color:green;
-                background:#E9F2F3;
-                height:80px;
-                width:60vw;
-                top:0px;
-                position:absolute;
-                display:flex;
-                
-            } */
 
             .my-header {
                 width:40vw;
@@ -214,13 +202,6 @@
                 margin-top:10px;
             }
 
-            /* .divider{
-                width: 10px;
-                background-color: #CCE3E3;
-                height: 40px;
-                margin-left: 100px;
-            } */
-
             .header-font{
                 font-size:10px;
             }
@@ -228,14 +209,20 @@
 
             /*main-items*/
             .main-item{
-                align-items: center;
+                text-align:center;
+                
             }
+
             table{
+                /* margin:auto; */
                 border-collapse:collapse;
                 position:relative;
-                top:50px;
+                /* position:absolute; */
                 width:90%;
-                display:inline-block;
+                top:50px;
+                left: 30px;
+                display:table;
+                table-layout:auto;
             }
 
             tr > a, th > a{
@@ -245,6 +232,12 @@
 
             th{
                 border-bottom:solid #8AA0A0;
+                padding:10px;
+                table-layout:fixed;
+            }
+
+            table, td, th{
+                border:solid 1px;
             }
             
         </style>
