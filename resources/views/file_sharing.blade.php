@@ -208,36 +208,14 @@
             
 
             /*main-items*/
-            .main-item{
-                text-align:center;
-                
+            table > tr >td{
+                height:50px;
             }
-
-            table{
-                /* margin:auto; */
-                border-collapse:collapse;
+            table > tr > td > a{
+                display:block;
                 position:relative;
-                /* position:absolute; */
-                width:90%;
-                top:50px;
-                left: 30px;
-                display:table;
-                table-layout:auto;
-            }
-
-            tr > a, th > a{
-                text-decoration:none;
-                color:#8AA0A0;
-            }
-
-            th{
-                border-bottom:solid #8AA0A0;
-                padding:10px;
-                table-layout:fixed;
-            }
-
-            table, td, th{
-                border:solid 1px;
+                width:100%;
+                height:100%;
             }
             
         </style>
