@@ -111,12 +111,14 @@
             }
 
             .folder-icon{
-                right: 38px;
-                margin-right:20px;
+                right: 38vw;
+                /* margin-right:20px; */
+                margin-right:1vw;
             }
             
             .fa-ellipsis-h{
-                margin-left: 100px;
+                /* margin-left: 100px; */
+                margin-left: 5vw;
             }
 
             
