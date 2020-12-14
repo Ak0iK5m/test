@@ -17,8 +17,12 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
-Route::get('/', function () {
+Route::get('/file_sharing', function () {
     return view('file_sharing');
+});
+
+Route::get('/talk', function () {
+    return view('talk');
 });
 
 Auth::routes();

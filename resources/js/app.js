@@ -12,6 +12,7 @@ require('./bootstrap');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-//require('./components/Example');
+// require('./components/Example');
 
 require('./components/File_Sharing')
+require('./components/Talk')
