@@ -22,53 +22,74 @@ export default class Talk extends Component {
                            </div>
                         </li>
                         <li>
-                            <div className="user-icon"><i class="far fa-user"></i></div>
-                            <div className="user-text">
-                                <span>開発部長</span><span className="date">昨日</span><br></br>
-                                <input type="text" value="おはよう御座います"></input>              
-                            </div>              
+                           <div className="user-icon"><i class="far fa-user"></i></div>
+                           <div className="user-text">
+                               <div className="text-list"><span className="person">開発部長</span><span className="date">昨日</span></div>
+                               <div className="talk-list">
+                                    <input type="text" value="おはよう御座います。こちらサンプルテキストです。"></input>
+                                    <p className="circle">7</p>
+                               </div>
+                           </div>
                         </li>
                         <li>
-                            <div className="ufilesharering-ser-icon"><i class="far fa-user"></i></div>
-                            <div className="user-text">
-                                <span>開発部長</span><span className="date">昨日</span><br></br>
-                                <input type="text" value="おはよう御座います"></input>              
-                            </div>              
+                           <div className="user-icon"><i class="far fa-user"></i></div>
+                           <div className="user-text">
+                               <div className="text-list"><span className="person">開発部長</span><span className="date">昨日</span></div>
+                               <div className="talk-list">
+                                    <input type="text" value="おはよう御座います。こちらサンプルテキストです。"></input>
+                                    <p className="circle">7</p>
+                               </div>
+                           </div>
                         </li>
                         <li>
-                            <div className="user-icon"><i class="far fa-user"></i></div>
-                            <div className="user-text">
-                                <span>開発部長</span><span className="date">昨日</span><br></br>
-                                <input type="text" value="おはよう御座います"></input>              
-                            </div>              
+                           <div className="user-icon"><i class="far fa-user"></i></div>
+                           <div className="user-text">
+                               <div className="text-list"><span className="person">開発部長</span><span className="date">昨日</span></div>
+                               <div className="talk-list">
+                                    <input type="text" value="おはよう御座います。こちらサンプルテキストです。"></input>
+                                    <p className="circle">7</p>
+                               </div>
+                           </div>
                         </li>
                         <li>
-                            <div className="user-icon"><i class="far fa-user"></i></div>
-                            <div className="user-text">
-                                <span>開発部長</span><span className="date">昨日</span><br></br>
-                                <input type="text" value="おはよう御座います"></input>              
-                            </div>              
+                           <div className="user-icon"><i class="far fa-user"></i></div>
+                           <div className="user-text">
+                               <div className="text-list"><span className="person">開発部長</span><span className="date">昨日</span></div>
+                               <div className="talk-list">
+                                    <input type="text" value="おはよう御座います。こちらサンプルテキストです。"></input>
+                                    <p className="circle">7</p>
+                               </div>
+                           </div>
                         </li>
                         <li>
-                            <div className="user-icon"><i class="far fa-user"></i></div>
-                            <div className="user-text">
-                                <span>開発部長</span><span className="date">昨日</span><br></br>
-                                <input type="text" value="おはよう御座います"></input>              
-                            </div>              
+                           <div className="user-icon"><i class="far fa-user"></i></div>
+                           <div className="user-text">
+                               <div className="text-list"><span className="person">開発部長</span><span className="date">昨日</span></div>
+                               <div className="talk-list">
+                                    <input type="text" value="おはよう御座います。こちらサンプルテキストです。"></input>
+                                    <p className="circle">7</p>
+                               </div>
+                           </div>
                         </li>
                         <li>
-                            <div className="user-icon"><i class="far fa-user"></i></div>
-                            <div className="user-text">
-                                <span>開発部長</span><span className="date">昨日</span><br></br>
-                                <input type="text" value="おはよう御座います"></input>              
-                            </div>              
+                           <div className="user-icon"><i class="far fa-user"></i></div>
+                           <div className="user-text">
+                               <div className="text-list"><span className="person">開発部長</span><span className="date">昨日</span></div>
+                               <div className="talk-list">
+                                    <input type="text" value="おはよう御座います。こちらサンプルテキストです。"></input>
+                                    <p className="circle">7</p>
+                               </div>
+                           </div>
                         </li>
                         <li>
-                            <div className="user-icon"><i class="far fa-user"></i></div>
-                            <div className="user-text">
-                                <span>開発部長</span><span className="date">昨日</span><br></br>
-                                <input type="text" value="おはよう御座います"></input>              
-                            </div>              
+                           <div className="user-icon"><i class="far fa-user"></i></div>
+                           <div className="user-text">
+                               <div className="text-list"><span className="person">開発部長</span><span className="date">昨日</span></div>
+                               <div className="talk-list">
+                                    <input type="text" value="おはよう御座います。こちらサンプルテキストです。"></input>
+                                    <p className="circle">7</p>
+                               </div>
+                           </div>
                         </li>
                         
                     </ul>

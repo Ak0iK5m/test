@@ -23,6 +23,7 @@
             padding:0;
             margin:0 auto;
             font-size:4vm;
+            font-family: 'Noto Sans JP', sans-serif;
         }
 
         .side-menu {
@@ -103,7 +104,6 @@
             display:block;
             text-decoration:none;
             padding-left:20px;
-            /* border:solid 1px white; */
         }
 
       
@@ -135,16 +135,18 @@
 
         
         .user-icon {
-            /* height:50px;
-            width:50px; */
             height:30px;
-            width:30px;
-            /* border:solid 1px black; */
+            width:35px;
             position:relative;
             margin:15px;
             background:#FFFFFF;
+            text-align:center;
         }
 
+        .fa-user{
+            position:relative;
+            top:3px;
+        }
         .user-text {
             position:relative;
             height:100%;
@@ -156,29 +158,43 @@
         
         .text-list{
             display:flex;
-            justify-content:space-between;
             position:relative;
-            top:10px;
+            top:15px;
         }
 
         
         .date{
+            color:#8aa0a0;
             font-size:12px;
-            
+            position:relative;
+            left:155px;
+            top:5px;
         }
 
         .talk-list{
             width:100%;
-            display:flex;
-            /* justify-content:space-between; */
             position:relative;
             top:10px;
         }
 
         .talk-list > input {
             height:10px;
-            width:16vw;
+            width:15vw;
             text-overflow:ellipsis;
+            position:relative;
+            top:13px;
+        }
+
+        .talk-list > .circle {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: #E47E7E;
+            text-align: center;
+            color:white;
+            position:relative;
+            bottom:25px;
+            left:255px;
         }
     
         /* .maru {
@@ -215,17 +231,17 @@
             height:20px;
             top:30%;
         }
-        .circle{
+        /* .circle{
                 width: 20px;
                 height: 20px;
                 border-radius: 50%;
                 background: red;
                 text-align: center;
                 color:white;
-                /* margin-right:1vw; */
                 position:relative;
-                top:0px;
-            }
+                bottom:13px;
+                left:255px;
+            } */
 
         .my-header-title {
             width:40%;
