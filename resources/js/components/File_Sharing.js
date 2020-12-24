@@ -53,8 +53,7 @@ export default class File_Sharing extends Component
                             <section className="my-header-items-section">
                                 <a href="" className="circle"><i class="fas fa-user-plus"></i></a>
                                 <p>共有ユーザ追加</p>
-                            </section>
-                               
+                            </section>                               
                         </div>
                     </div>
                     <div className="account-settings">
@@ -72,7 +71,8 @@ export default class File_Sharing extends Component
                         </section>
                         <section className="my-header-items-section">
                             <a href="" className="circle"><i class="far fa-question-circle"></i></a>
-                            <p>ヘルプ</p>                                </section>
+                            <p>ヘルプ</p>
+                        </section>
                     </div>
                      <div className="main-item">
                          <table border="0">

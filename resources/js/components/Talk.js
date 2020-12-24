@@ -17,7 +17,7 @@ export default class Talk extends Component {
                                <div className="text-list"><span className="person">開発部長</span><span className="date">昨日</span></div>
                                <div className="talk-list">
                                     <input type="text" value="おはよう御座います。こちらサンプルテキストです。"></input>
-                                    <p className="circle">7</p>
+                                    <p className="talk-circle">7</p>
                                </div>
                            </div>
                         </li>
@@ -27,7 +27,7 @@ export default class Talk extends Component {
                                <div className="text-list"><span className="person">開発部長</span><span className="date">昨日</span></div>
                                <div className="talk-list">
                                     <input type="text" value="おはよう御座います。こちらサンプルテキストです。"></input>
-                                    <p className="circle">7</p>
+                                    <p className="talk-circle">7</p>
                                </div>
                            </div>
                         </li>
@@ -37,7 +37,7 @@ export default class Talk extends Component {
                                <div className="text-list"><span className="person">開発部長</span><span className="date">昨日</span></div>
                                <div className="talk-list">
                                     <input type="text" value="おはよう御座います。こちらサンプルテキストです。"></input>
-                                    <p className="circle">7</p>
+                                    <p className="talk-circle">7</p>
                                </div>
                            </div>
                         </li>
@@ -47,7 +47,7 @@ export default class Talk extends Component {
                                <div className="text-list"><span className="person">開発部長</span><span className="date">昨日</span></div>
                                <div className="talk-list">
                                     <input type="text" value="おはよう御座います。こちらサンプルテキストです。"></input>
-                                    <p className="circle">7</p>
+                                    <p className="talk-circle">7</p>
                                </div>
                            </div>
                         </li>
@@ -57,7 +57,7 @@ export default class Talk extends Component {
                                <div className="text-list"><span className="person">開発部長</span><span className="date">昨日</span></div>
                                <div className="talk-list">
                                     <input type="text" value="おはよう御座います。こちらサンプルテキストです。"></input>
-                                    <p className="circle">7</p>
+                                    <p className="talk-circle">7</p>
                                </div>
                            </div>
                         </li>
@@ -67,7 +67,7 @@ export default class Talk extends Component {
                                <div className="text-list"><span className="person">開発部長</span><span className="date">昨日</span></div>
                                <div className="talk-list">
                                     <input type="text" value="おはよう御座います。こちらサンプルテキストです。"></input>
-                                    <p className="circle">7</p>
+                                    <p className="talk-circle">7</p>
                                </div>
                            </div>
                         </li>
@@ -77,7 +77,7 @@ export default class Talk extends Component {
                                <div className="text-list"><span className="person">開発部長</span><span className="date">昨日</span></div>
                                <div className="talk-list">
                                     <input type="text" value="おはよう御座います。こちらサンプルテキストです。"></input>
-                                    <p className="circle">7</p>
+                                    <p className="talk-circle">7</p>
                                </div>
                            </div>
                         </li>
@@ -87,7 +87,7 @@ export default class Talk extends Component {
                                <div className="text-list"><span className="person">開発部長</span><span className="date">昨日</span></div>
                                <div className="talk-list">
                                     <input type="text" value="おはよう御座います。こちらサンプルテキストです。"></input>
-                                    <p className="circle">7</p>
+                                    <p className="talk-circle">7</p>
                                </div>
                            </div>
                         </li>
@@ -95,19 +95,47 @@ export default class Talk extends Component {
                     </ul>
                 </div>
                 <div className="main-contents">
-                    <div className="main-header">
-                        <div className="my-header">
-                            <div className="my-header-title">
-                                <p>トーク</p>
-                                <p>グループ名</p>
-                            </div>  
-                            <div className="my-header-items">
-
-                                <p>a</p>
-                                <p>s</p>
-                            </div>
+                    <div className="my-header">
+                        <div className="my-header-title">
+                            <h5>ファイル共有</h5>
+                            <h6>フォルダ名</h6>
                         </div>
-                        <div className="account-settings"></div>
+                        <div className="my-header-items">
+                            <section className="my-header-items-section">
+                                <a href="" className="circle"><i class="fas fa-cloud-download-alt"></i></a>
+                                <p  onClick={
+                                        function(){
+
+                                    }
+                                }>ダウンロード</p>
+                            </section>
+                            <section className="my-header-items-section">
+                                <a href="" className="circle"><i class="fas fa-cloud-upload-alt"></i></a>
+                                <p>アップロード</p>
+                            </section>
+                            <section className="my-header-items-section">
+                                <a href="" className="circle"><i class="fas fa-user-plus"></i></a>
+                                <p>共有ユーザ追加</p>
+                            </section>                               
+                        </div>
+                    </div>
+                    <div className="account-settings">
+                        <section className="my-header-items-section">
+                            <a href="" className="circle"><i class="far fa-user"></i></a>
+                            <p>アカウント</p>
+                        </section>
+                        <section className="my-header-items-section">
+                            <a href="" className="circle"><i class="far fa-bell"></i></a>
+                            <p>通知</p>
+                        </section>
+                        <section className="my-header-items-section">
+                            <a href="" className="circle"><i class="fas fa-cog"></i></a>
+                            <p>設定</p>
+                        </section>
+                        <section className="my-header-items-section">
+                            <a href="" className="circle"><i class="far fa-question-circle"></i></a>
+                            <p>ヘルプ</p>
+                        </section>
                     </div>
                     <div className="main-item">
                         {/* 会話部分 */}

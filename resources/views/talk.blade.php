@@ -16,187 +16,225 @@
 
 
     <style>
-        html,body {
-            display:flex;
-            height:100vh;
-            width:100vw;
-            padding:0;
-            margin:0 auto;
-            font-size:4vm;
+        html,
+        body {
+            display: flex;
+            height: 100vh;
+            width: 100vw;
+            padding: 0;
+            margin: 0 auto;
+            font-size: 4vm;
             font-family: 'Noto Sans JP', sans-serif;
+            position: fixed;
         }
 
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li a {
+            height: 50px;
+            width: 100%;
+            color: white;
+            text-align: left;
+            font-size: 100%;
+            display: block;
+            text-decoration: none;
+            padding-left: 20px;
+        }
+
+        /*サイドメニュー*/
         .side-menu {
-            width:18vw;
-            height:100vh;
-            background-color:#62ABB6;
+            width: 18vw;
+            height: 100vh;
+            background-color: #62ABB6;
         }
 
-        .side-menu > ul > li > a {
-            display:flex;
-            align-items:center;
-            
+        .side-menu>ul>li>a {
+            display: flex;
+            align-items: center;
+
         }
+
+        /*main-menu: folder +  main-contents*/
         .main-menu {
-            display:flex;
-            height:100vh;
-            width:calc(100vw - 18vw);
+            display: flex;
+            height: 100vh;
+            width: calc(100vw - 18vw);
         }
 
+        /*トーク一覧*/
         .folder-menu {
-            width:24vw;
-            height:100vh;
-            background-color:#CCE3E3;
-            color:#007a7a;
-            overflow-y:scroll;
-            overflow-x:hidden;
+            width: 24vw;
+            height: 100vh;
+            background-color: #CCE3E3;
+            color: #007a7a;
+            overflow-y: scroll;
+            overflow-x: hidden;
             border: solid #E0E0E0 1px;
-
-        
         }
-        
+
+        .search-text {
+            height: 40px;
+            width: calc(24vw - 80px);
+            margin: 20px 40px;
+            border: none;
+            border-radius: 4px;
+            color: #00697A;
+            font-family: "Font Awesome 5 Free", 'Noto Sans JP', 'sans-serif';
+            font-weight: 600;
+        }
+
+        .folder-list {
+            position: fixed;
+            height: calc(100vh - 40px);
+            top: 80px;
+            width: 24vw;
+            overflow-x: scroll;
+        }
+
+        .folder-list>li {
+            border: solid 1px white;
+            height: 80px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            background-color: #e9f2f3;
+        }
+
+        .user-icon {
+            height: 30px;
+            width: 35px;
+            position: relative;
+            margin: 15px;
+            background: #FFFFFF;
+            text-align: center;
+        }
+
+        .fa-user {
+            position: relative;
+            top: 3px;
+        }
+
+        .user-text {
+            position: relative;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-flow: column;
+            justify-content: space-around;
+        }
+
+        .text-list {
+            display: flex;
+            position: relative;
+            top: 15px;
+        }
+
+
+        .date {
+            color: #8aa0a0;
+            font-size: 12px;
+            position: relative;
+            left: 155px;
+            top: 5px;
+        }
+
+        .talk-list {
+            width: 100%;
+            position: relative;
+            top: 10px;
+        }
+
+        .talk-list>input {
+            height: 10px;
+            width: 15vw;
+            text-overflow: ellipsis;
+            position: relative;
+            top: 13px;
+        }
+
+        .talk-list>.talk-circle {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: #E47E7E;
+            text-align: center;
+            color: white;
+            position: relative;
+            bottom: 25px;
+            left: 255px;
+        }
+
+        /*main-contents: header + main-items*/
         .main-contents {
-            height:100vh;
-            width:58vw;
-            background-color:gray;
+            height: 100vh;
+            width: 58vw;
+            background-color: gray;
         }
 
-        .main-header {
+        /* .main-header {
             background-color:green;
             height:80px;
             width:58vw;
             top:0px;
             position:absolute;
             display:flex;
-        }
+        } */
 
         .my-header {
+            width: 40vw;
+            height: 80px;
+            background-color: #E9F2F3;
+            color: #8aa0a0;
+            display: flex;
+            margin-left: 0;
+            position: fixed;
+            /* 
             width:70%;
             display:flex;
             margin-left:0;
             color:#8aa0a0;
-            background-color:#e9f2f3;      
+            background-color:#e9f2f3;       */
         }
 
         .account-settings {
-            width:30%;
-            background-color:blue;
+            width: 20vw;
+            height: 80px;
+            right: 0px;
+            border-left: solid #CCE3E3;
+            background: #E9F2F3;
+            display: flex;
+            flex-flow: row;
+            justify-content: center;
+            top: 0px;
+            position: fixed;
+
+            /* width:30%;
+            background-color:blue; */
         }
+
+        .account-settings>.my-header-items-section>a {
+            color: #8AA0A0;
+        }
+
+        .account-settings>.my-header-items-section>p {
+            color: #8AA0A0;
+            font-size: 12px;
+        }
+
         .main-item {
-            background-color:yellow;
-            height:calc(100vh - 80px);
-            width:58vw;
-            top:80px;
-            position:absolute;
-        }
-        
-        ul {
-            list-style:none;
-            padding:0;
-            margin:0;
-        }
-        li a {
-            height:50px;
-            width : 100%;
-            color:white;
-            text-align:left;
-            font-size:100%;
-            display:block;
-            text-decoration:none;
-            padding-left:20px;
+            background-color: yellow;
+            height: calc(100vh - 80px);
+            width: 58vw;
+            top: 80px;
+            position: absolute;
         }
 
-      
-        .search-text{
-            height: 40px;
-            width: calc(24vw - 80px);
-            margin: 20px 40px;
-            border: none;
-            border-radius:4px;
-            color: #00697A;
-            font-family: "Font Awesome 5 Free", 'Noto Sans JP', 'sans-serif';
-            font-weight: 600;
-        }
 
-        /* .folder-list {
-            height:calc(100vh - 40px);
-            position:fixed;
-            top:80px;
-            overflow-x:scroll;
-        } */
-        .folder-list > li {
-            border:solid 1px white;
-            height:80px;
-            width:100%;
-            display:flex;
-            align-items:center;
-            background-color:#e9f2f3;
-        }
 
-        
-        .user-icon {
-            height:30px;
-            width:35px;
-            position:relative;
-            margin:15px;
-            background:#FFFFFF;
-            text-align:center;
-        }
-
-        .fa-user{
-            position:relative;
-            top:3px;
-        }
-        .user-text {
-            position:relative;
-            height:100%;
-            width:100%;
-            display:flex;
-            flex-flow:column;
-            justify-content:space-around;
-        }
-        
-        .text-list{
-            display:flex;
-            position:relative;
-            top:15px;
-        }
-
-        
-        .date{
-            color:#8aa0a0;
-            font-size:12px;
-            position:relative;
-            left:155px;
-            top:5px;
-        }
-
-        .talk-list{
-            width:100%;
-            position:relative;
-            top:10px;
-        }
-
-        .talk-list > input {
-            height:10px;
-            width:15vw;
-            text-overflow:ellipsis;
-            position:relative;
-            top:13px;
-        }
-
-        .talk-list > .circle {
-            width: 20px;
-            height: 20px;
-            border-radius: 50%;
-            background: #E47E7E;
-            text-align: center;
-            color:white;
-            position:relative;
-            bottom:25px;
-            left:255px;
-        }
-    
         /* .maru {
             display: inline-flex;
             justify-content: center;
@@ -223,80 +261,117 @@
             color: black;
             border: 2px solid red;
             bakground-color:red;
-        } */ 
+        } */
         .inner-circle {
-            display:flex;
-            width:100%;
-            position:relative;
-            height:20px;
-            top:30%;
+            display: flex;
+            width: 100%;
+            position: relative;
+            height: 20px;
+            top: 30%;
         }
-        /* .circle{
-                width: 20px;
-                height: 20px;
-                border-radius: 50%;
-                background: red;
-                text-align: center;
-                color:white;
-                position:relative;
-                bottom:13px;
-                left:255px;
-            } */
+
+        .circle {
+            /* width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: red;
+            text-align: center;
+            color:white;
+            position:relative;
+            bottom:13px;
+            left:255px; */
+            width: 38px;
+            height: 38px;
+            border-radius: 50%;
+            background: white;
+            text-align: center;
+            line-height: 36px;
+        }
 
         .my-header-title {
-            width:40%;
-            background-color:#e9f2f3;
+            width: 40%;
+            background-color: #e9f2f3;
+            /* margin-top: 20px; */
+            margin-left: 10px;
+
+            /* width:40%;
+            background-color:#e9f2f3; */
         }
 
+
         .my-header-items {
-            width:60%;
-            background-color:#40px;
+            display: flex;
+            flex-flow: row;
+            width: 60%;
+            /* width:60%;
+            background-color:#40px; */
         }
+
+        .my-header-items-section {
+            display: flex;
+            flex-flow: column wrap;
+            margin-right: 10px;
+            align-items: center;
+            margin-top: 10px;
+        }
+
+        /*トーク内容 */
         .user-message-info {
-            display:flex;
-            height:10%;
+            display: flex;
+            height: 10%;
+        }
+
+        .my-header-items >.my-header-items-section > .circle {
+            background-color: #00B7B7;
+            color: #fff;
+        }
+
+        .my-header-items > .my-header-items-section > p {
+            font-size: 12px;
         }
 
         .messageLine {
-                overflow: auto;
-                border-right: 1px solid #555;
-                border-left: 1px solid #555;
-            }
-            ..opponent {
-                float: left;
-                line-height: 1.3em;
-            }
-            .opponent .message_box {
-                max-width: 100%;
-                font-size: 17px;
-                background: #fff;
-                border: 1px solid #999;
-                border-radius: 0px 30px 30px 30px;
-                margin-left: 50px;
-            }
+            overflow: auto;
+            border-right: 1px solid #555;
+            border-left: 1px solid #555;
+        }
+
+        .opponent {
+            float: left;
+            line-height: 1.3em;
+        }
+
+        .opponent .message_box {
+            max-width: 100%;
+            font-size: 17px;
+            background: #fff;
+            border: 1px solid #999;
+            border-radius: 0px 30px 30px 30px;
+            margin-left: 50px;
+        }
     </style>
-    
+
     <!-- ここにアプリのscriptタグを貼り付けます。 -->
 
-        <!-- The core Firebase JS SDK is always required and must be listed first -->
-        <!-- <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script> -->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <!-- <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script> -->
 
-        <!-- TODO: Add SDKs for Firebase products that you want to use
+    <!-- TODO: Add SDKs for Firebase products that you want to use
             https://firebase.google.com/docs/web/setup#available-libraries -->
-        <!-- <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-analytics.js"></script>
+    <!-- <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-analytics.js"></script>
 
         <script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-auth.js"></script>
         <script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-database.js"></script>
         <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-storage.js"></script> -->
-        <!-- <script> -->
-            <!-- // Your web app's Firebase configuration
+    <!-- <script> -->
+    <!-- // Your web app's Firebase configuration
             var firebaseConfig = {
                 
             };
             // Initialize Firebase
             firebase.initializeApp(firebaseConfig);
             firebase.analytics(); -->
-        </script>
+    </script>
 </head>
 
 <body>
@@ -312,16 +387,16 @@
         </ul>
     </div>
     <div id="talk"></div>
-        <script src="{{asset('/js/app.js')}}"></script>
+    <script src="{{asset('/js/app.js')}}"></script>
     <div>
 
-    <!-- <script>
+        <!-- <script>
         $.ajaxSetup({
         headers: {
             'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
         }
     }); -->
-    </script>
+        </script>
 </body>
 
 </html>
