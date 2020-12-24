@@ -152,6 +152,14 @@
                 position:fixed;
             }
 
+            .account-settings > .my-header-items-section > a {
+                color:#8AA0A0;
+            }
+
+            .account-settings > .my-header-items-section > p {
+                color:#8AA0A0;
+                font-size:12px;
+            }
             .main-item {
                 background-color: #FFFFFF;
                 height:calc(100vh - 80px);
@@ -166,9 +174,6 @@
 
             h6{
                 margin-top:10px;
-            }
-
-            .my-header-font-color{
                 color:#8AA0A0;
             }
             
@@ -204,10 +209,14 @@
                 margin-top:10px;
             }
 
-            .header-font{
-                font-size:10px;
+            .my-header-items > .my-header-items-section > .circle {
+                background-color:#00B7B7;
+                color:#fff;
             }
-            
+
+            .my-header-items > .my-header-items-section > p {
+                font-size:12px;
+            }
 
             /*main-items*/
             .main-item{
