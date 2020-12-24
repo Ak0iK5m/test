@@ -135,7 +135,7 @@
         .text-list {
             display: flex;
             position: relative;
-            top: 15px;
+            /* top: 15px; */
         }
 
 
@@ -150,7 +150,7 @@
         .talk-list {
             width: 100%;
             position: relative;
-            top: 10px;
+            bottom: 10px;
         }
 
         .talk-list>input {
@@ -171,6 +171,8 @@
             position: relative;
             bottom: 25px;
             left: 255px;
+            bottom: 10px;
+            
         }
 
         /*main-contents: header + main-items*/
@@ -180,15 +182,6 @@
             background-color: gray;
         }
 
-        /* .main-header {
-            background-color:green;
-            height:80px;
-            width:58vw;
-            top:0px;
-            position:absolute;
-            display:flex;
-        } */
-
         .my-header {
             width: 40vw;
             height: 80px;
@@ -197,12 +190,6 @@
             display: flex;
             margin-left: 0;
             position: fixed;
-            /* 
-            width:70%;
-            display:flex;
-            margin-left:0;
-            color:#8aa0a0;
-            background-color:#e9f2f3;       */
         }
 
         .account-settings {
@@ -230,8 +217,55 @@
             font-size: 12px;
         }
 
+
+        .my-header-title {
+            width: 40%;
+            background-color: #e9f2f3;
+            margin-top: 20px;
+            margin-left: 10px;
+
+            /* width:40%;
+            background-color:#e9f2f3; */
+        }
+
+        h5{
+             color:#62ABB6;
+        }
+
+        h6{
+            margin-top:10px;
+            color:#8AA0A0;
+        }
+
+
+        .my-header-items {
+            display:flex;
+            flex-flow:row;
+            width:60%;
+            /* width:60%;
+            background-color:#40px; */
+        }
+
+        .my-header-items-section {
+            display: flex;
+            flex-flow: column wrap;
+            margin-right:10px;
+            align-items: center;
+            margin-top: 10px;
+        }
+
+        .my-header-items >.my-header-items-section > .circle {
+            background-color: #00B7B7;
+            color: #fff;
+        }
+
+        .my-header-items > .my-header-items-section > p {
+            font-size: 12px;
+        }
+
+        /*main-item*/
         .main-item {
-            background-color: yellow;
+            background-color: #FFFFFF;
             height: calc(100vh - 80px);
             width: 58vw;
             top: 80px;
@@ -293,55 +327,11 @@
             line-height: 36px;
         }
 
-        .my-header-title {
-            width: 40%;
-            background-color: #e9f2f3;
-            margin-top: 20px;
-            margin-left: 10px;
-
-            /* width:40%;
-            background-color:#e9f2f3; */
-        }
-
-        h5{
-             color:#62ABB6;
-        }
-
-        h6{
-            margin-top:10px;
-            color:#8AA0A0;
-        }
-
-
-        .my-header-items {
-            display: flex;
-            flex-flow: row;
-            width: 60%;
-            /* width:60%;
-            background-color:#40px; */
-        }
-
-        .my-header-items-section {
-            display: flex;
-            flex-flow: column wrap;
-            margin-right: 10px;
-            align-items: center;
-            margin-top: 10px;
-        }
 
         /*トーク内容 */
         .user-message-info {
             display: flex;
             height: 10%;
-        }
-
-        .my-header-items >.my-header-items-section > .circle {
-            background-color: #00B7B7;
-            color: #fff;
-        }
-
-        .my-header-items > .my-header-items-section > p {
-            font-size: 12px;
         }
 
         .messageLine {
@@ -362,6 +352,12 @@
             border: 1px solid #999;
             border-radius: 0px 30px 30px 30px;
             margin-left: 50px;
+        }
+
+        .faceicon{
+            position:relative;
+            left:10px;
+            top:10px;
         }
     </style>
 

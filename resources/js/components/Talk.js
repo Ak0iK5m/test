@@ -97,25 +97,25 @@ export default class Talk extends Component {
                 <div className="main-contents">
                     <div className="my-header">
                         <div className="my-header-title">
-                            <h5>ファイル共有</h5>
-                            <h6>フォルダ名</h6>
+                            <h5>トーク</h5>
+                            <h6>グループ名</h6>
                         </div>
                         <div className="my-header-items">
                             <section className="my-header-items-section">
-                                <a href="" className="circle"><i class="fas fa-cloud-download-alt"></i></a>
+                                <a href="" className="circle"><i class="fas fa-phone-alt"></i></a>
                                 <p  onClick={
                                         function(){
 
                                     }
-                                }>ダウンロード</p>
+                                }>通話</p>
                             </section>
                             <section className="my-header-items-section">
-                                <a href="" className="circle"><i class="fas fa-cloud-upload-alt"></i></a>
-                                <p>アップロード</p>
+                                <a href="" className="circle"><i class="fas fa-video"></i></a>
+                                <p>ビデオ通話</p>
                             </section>
                             <section className="my-header-items-section">
-                                <a href="" className="circle"><i class="fas fa-user-plus"></i></a>
-                                <p>共有ユーザ追加</p>
+                                <a href="" className="circle"><i class="fas fa-bars"></i></a>
+                                <p>メニュー</p>
                             </section>                               
                         </div>
                     </div>
@@ -140,9 +140,22 @@ export default class Talk extends Component {
                     <div className="main-item">
                         {/* 会話部分 */}
                         <div class="opponent">
+                            {/*相手*/}
                             <div class="faceicon">
                                 <img src="" width="50" height="50" class="rounded-circle align-middle img-responsive float-left"></img>
                                 <p className="name font-weight-bold m-0">開発部長</p>
+                                <div class="message_box m-2">
+                                    <div class="message_content p-3">
+                                    <div class="message_text">message</div>
+                                    </div>
+                                </div>
+                                <p class="dateTime float-right">2019</p>
+                                <div class="clear"></div>
+                            </div>
+                            {/*自分*/}
+                            <div class="my-faceicon">
+                                <img src="" width="50" height="50" class="rounded-circle align-middle img-responsive float-left"></img>
+                                <p className="name font-weight-bold m-0">自分</p>
                                 <div class="message_box m-2">
                                     <div class="message_content p-3">
                                     <div class="message_text">message</div>
