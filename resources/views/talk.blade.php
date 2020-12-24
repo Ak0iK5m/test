@@ -16,6 +16,11 @@
 
 
     <style>
+     *{
+            margin: 0px;
+            padding: 0px;
+    }
+
         html,
         body {
             display: flex;
@@ -113,9 +118,9 @@
             text-align: center;
         }
 
-        .fa-user {
+        .user-icon > .fa-user {
             position: relative;
-            top: 3px;
+            top: 4px;
         }
 
         .user-text {
@@ -291,11 +296,20 @@
         .my-header-title {
             width: 40%;
             background-color: #e9f2f3;
-            /* margin-top: 20px; */
+            margin-top: 20px;
             margin-left: 10px;
 
             /* width:40%;
             background-color:#e9f2f3; */
+        }
+
+        h5{
+             color:#62ABB6;
+        }
+
+        h6{
+            margin-top:10px;
+            color:#8AA0A0;
         }
 
 
