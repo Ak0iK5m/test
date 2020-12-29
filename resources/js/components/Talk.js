@@ -146,7 +146,8 @@ export default class Talk extends Component {
                                 <p className="name font-weight-bold m-0">開発部長</p>
                                 <div class="message_box m-2">
                                     <div class="message_content p-3">
-                                    <div class="message_text">message</div>
+                                    <div class="message_text">おはよう御座います。こちらサンプルテキストです。おはよう御座います。こちらサンプルテキストです。おはよう御座います。こちらサンプルテキストです。おはよう御座います。こちらサンプルテキストです。おはよう御座います。こちらサンプルテキストです。おはよう御座います。こちらサンプルテキストです。おはよう御座います。こちらサンプルテキストです。おはよう御座います。こちらサンプルテキストです。おはよう御座います。こちらサンプルテキストです。おはよう御座います。こちらサンプルテキストです。おはよう御座います。こちらサンプルテキストです。おはよう御座います。こちらサンプルテキストです。おはよう御座います。こちらサンプルテキストです。
+                                    </div>
                                     </div>
                                 </div>
                                 <p class="dateTime float-right">2019</p>
@@ -158,7 +159,7 @@ export default class Talk extends Component {
                                 <p className="name font-weight-bold m-0">自分</p>
                                 <div class="message_box m-2">
                                     <div class="message_content p-3">
-                                    <div class="message_text">message</div>
+                                        <div class="message_text">おはよう御座います。</div>
                                     </div>
                                 </div>
                                 <p class="dateTime float-right">2019</p>
