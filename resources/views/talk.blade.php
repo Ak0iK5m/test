@@ -348,26 +348,28 @@
         }
 
         .opponent {
-            float: left;
+            /* float: left; */
+            width: 60%;
             line-height: 1.5em;
-            /* width: 100%; */
         }
 
         .opponent .message_box {
-            max-width: 75%;
+            max-width: 60%;
+            min-width:50%;
             font-size: 17px;
             background: #fff;
             border: 3px solid #007A7A;
             border-radius: 10px;
             margin-left: 30px; 
-            position:relative;
+            /* position:relative; */
             left:30px;
             padding: 6px 9px;
             /*↓試し*/
             margin-top: 5px;
             display: inline-block;
             color: #555;
-
+            word-wrap: break-word;
+            white-space: normal;
             /* position: relative;
             box-sizing: border-box;
             width: 75%;
@@ -386,41 +388,45 @@
         }
 
         .faceicon{
+            width:100%;
             position:relative;
-            left:10px;
+            /* left:10px; */
             top:10px;
-            /* float:left; */
+            float:left;
         }
 
         .my-faceicon{
+            width:100%;
             position:relative;
             /* float:right; */
             /* left:640px; */
             float:right;
-            right:5%;
             /* right:10px; */
             /* text-align: right; */
         }
 
         .my-faceicon > img{
             position:relative;
-            /* left:150px; */
-            right:-225px;
+            left:800px;
+            /* right:-225px; */
+            /* left:auto; */
         }
 
-        .my-faceicon > p{
+        .my-faceicon > .name{
             position:relative;
             /* right:-3000px; */
-            left:100px;
+            left:650px;
+            /* right:-1000px; */
         }
 
         .my-faceicon > .message_box {
-            /* position:relative; */
+            position:relative;
+            /* right:0px; */
+            float:right;
             /* left:150px; */
-            right: 25px;
-            left: auto;
+            /* right: -250px; */
+            /* left: auto; */
             border: 3px solid #007A7A;
-            border-left-color: #78FF6C;
         }
         
         .img-responsive{
