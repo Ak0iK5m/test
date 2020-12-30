@@ -354,21 +354,21 @@
         }
 
         .opponent .message_box {
-            /* max-width: 75%;
+            max-width: 75%;
             font-size: 17px;
             background: #fff;
             border: 3px solid #007A7A;
-            border-radius: 10px; */
-            /* margin-left: 30px; */
-            /* position:relative;
+            border-radius: 10px;
+            margin-left: 30px; 
+            position:relative;
             left:30px;
-            padding: 6px 9px; */
+            padding: 6px 9px;
             /*↓試し*/
-            /* margin-top: 5px;
+            margin-top: 5px;
             display: inline-block;
-            color: #555; */
+            color: #555;
 
-            position: relative;
+            /* position: relative;
             box-sizing: border-box;
             width: 75%;
             border: 3px solid #007A7A;
@@ -376,7 +376,7 @@
             border-radius: 10px;
             background-color: #fff;
             margin: 0 auto 0 70px;
-            padding: 1em;
+            padding: 1em; */
         }
 
 
@@ -405,19 +405,19 @@
         .my-faceicon > img{
             position:relative;
             /* left:150px; */
-            /* right:-200px; */
+            right:-225px;
         }
 
         .my-faceicon > p{
             position:relative;
-            /* left:35px; */
-            /* left:660px; */
+            /* right:-3000px; */
+            left:100px;
         }
 
         .my-faceicon > .message_box {
             /* position:relative; */
             /* left:150px; */
-            right: -150px;
+            right: 25px;
             left: auto;
             border: 3px solid #007A7A;
             border-left-color: #78FF6C;
