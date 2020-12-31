@@ -308,31 +308,46 @@
 
         /*メッセージ入力欄*/
         textarea{
-            width: 53%;
+            /* width: 53%; */
+            width:calc(58vw-70px);
             /* height: calc(100vh - 180px); */
             height:100%;
             min-width: 20%;
             min-height: 100%;
-            resize: both;
+            max-width:calc(58vw-70px);
+            /* resize: vertical; */
+            overflow:auto;
             border:2px #E0E0E0 solid;
         }
 
-        .button-area{
+        /* .button-area{
             text-align:center;
+        } */
+
+        #send > button {
+            text-align: center;
+            background: #6FD8BB;
+            width: 70px;
+            height:100px;
+            vertical-align:top;
+            border:transparent;
         }
 
-        .sendBt{
-            text-align: center;
+        /* .sendBt{
+            vertical-align: center;
             background: #6FD8BB;
             width:50px;
             height:10px;
-        }
+        } */
         .fa-telegram-plane{
             font-size:50px;
             color:white;
         }
         #send {
             position:fixed;
+            display: flex;
+            display:-webkit-box;
+  	        display:-ms-flexbox;
             height:100px;
             bottom:0;
             /* background-color:red; */
