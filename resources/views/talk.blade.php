@@ -176,6 +176,7 @@
             width: 20px;
             height: 20px;
             border-radius: 50%;
+            -webkit-border-radius:50%;
             background: #E47E7E;
             text-align: center;
             color: white;
@@ -200,7 +201,6 @@
             display:-webkit-box;
   	        display:-ms-flexbox;
             margin-left: 0;
-            position: fixed;
         }
         .account-settings {
             width: 20vw;
@@ -243,14 +243,17 @@
             display:-webkit-box;
   	        display:-ms-flexbox;
             flex-flow:row;
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: normal;
+            -ms-flex-flow: row;
             width:60%;
             /* width:60%;
             background-color:#40px; */
         }
         .my-header-items-section {
             display: flex;
-            display:-webkit-box;
-  	        display:-ms-flexbox;
+            /* display:-webkit-box;
+  	        display:-ms-flexbox; */
             flex-flow: column wrap;
             margin-right:10px;
             align-items: center;
@@ -267,14 +270,14 @@
         .main-item {
             background-color: #FFFFFF;
             height: calc(100vh - 180px);
-            width: 58vw;
+            width: 57.8vw;
             top: 80px;
             position: absolute;
             overflow-y: scroll;
             overflow-x: hidden;
         }
         
-        .inner-circle {
+        /* .inner-circle {
             display: flex;
             display:-webkit-box;
   	        display:-ms-flexbox;
@@ -282,7 +285,7 @@
             position: relative;
             height: 20px;
             top: 30%;
-        }
+        } */
         .circle {
             /* width: 20px;
             height: 20px;
@@ -293,21 +296,41 @@
             position:relative;
             bottom:13px;
             left:255px; */
-            width: 1000px;
-            height: 1000px;
-            /* -webkit-border-radius:50%; */
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
             background: white;
             text-align: center;
             line-height: 36px;
+            -webkit-border-radius:50%;
             display:block;
         }
 
         /*メッセージ入力欄*/
         textarea{
-            width: 100%;
-            height:120px;
+            width: 53%;
+            /* height: calc(100vh - 180px); */
+            height:100%;
+            min-width: 20%;
+            min-height: 100%;
+            resize: both;
+            border:2px #E0E0E0 solid;
         }
 
+        .button-area{
+            text-align:center;
+        }
+
+        .sendBt{
+            text-align: center;
+            background: #6FD8BB;
+            width:50px;
+            height:10px;
+        }
+        .fa-telegram-plane{
+            font-size:50px;
+            color:white;
+        }
         #send {
             position:fixed;
             height:100px;
