@@ -66233,6 +66233,28 @@ var Talk = /*#__PURE__*/function (_Component) {
   _createClass(Talk, [{
     key: "render",
     value: function render() {
+      var videocontext = {
+        left: "2%",
+        bottom: "100%"
+      };
+      var filecontext = {
+        left: "18.5%",
+        bottom: "100%"
+      };
+      var submitcontext = {
+        left: "83.5%",
+        bottom: "100%"
+      };
+      var familycontext = {
+        left: "20px",
+        top: "0px",
+        color: "black"
+      };
+      var familysettingcontext = {
+        left: "90%",
+        top: "0px",
+        color: "black"
+      };
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "main-menu"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -66461,46 +66483,15 @@ var Talk = /*#__PURE__*/function (_Component) {
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u30D8\u30EB\u30D7"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "main-item"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        "class": "opponent"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        "class": "faceicon"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "",
-        width: "50",
-        height: "50",
-        "class": "rounded-circle align-middle img-responsive float-left"
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-        className: "name font-weight-bold m-0"
-      }, "\u958B\u767A\u90E8\u9577"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        "class": "message_box m-2"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        "class": "message_content p-3"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        "class": "message_text"
-      }, "\u304A\u306F\u3088\u3046\u5FA1\u5EA7\u3044\u307E\u3059\u3002\u3053\u3061\u3089\u30B5\u30F3\u30D7\u30EB\u30C6\u30AD\u30B9\u30C8\u3067\u3059\u3002"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-        "class": "dateTime float-right"
-      }, "2019"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        "class": "clear"
-      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        "class": "my-faceicon"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "",
-        width: "50",
-        height: "50",
-        "class": "rounded-circle align-middle img-responsive float-left"
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-        className: "name font-weight-bold m-0"
-      }, "\u81EA\u5206"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        "class": "message_box m-2"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        "class": "message_content p-3"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        "class": "message_text"
-      }, "\u304A\u306F\u3088\u3046\u5FA1\u5EA7\u3044\u307E\u3059\u3002\u304A\u306F\u3088\u3046\u5FA1\u5EA7\u3044\u307E\u3059\u3002\u3053\u3061\u3089\u30B5\u30F3\u30D7\u30EB\u30C6\u30AD\u30B9\u30C8\u3067\u3059\u3002\u304A\u306F\u3088\u3046\u5FA1\u5EA7\u3044\u307E\u3059\u3002\u3053\u3061\u3089\u30B5\u30F3\u30D7\u30EB\u30C6\u30AD\u30B9\u30C8\u3067\u3059\u3002\u304A\u306F\u3088\u3046\u5FA1\u5EA7\u3044\u307E\u3059\u3002\u3053\u3061\u3089\u30B5\u30F3\u30D7\u30EB\u30C6\u30AD\u30B9\u30C8\u3067\u3059\u3002"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-        "class": "dateTime float-right"
-      }, "2019"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        "class": "clear"
-      }))))));
+        id: "messageLine",
+        className: "p-2"
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        id: "send"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("textarea", {
+        "class": "message-input",
+        maxlength: "20",
+        placeholder: "\u3054\u610F\u898B\u30FB\u3054\u611F\u60F3\u3092\u3054\u8A18\u5165\u304F\u3060\u3055\u3044"
+      })))));
     }
   }]);
 
