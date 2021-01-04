@@ -307,14 +307,14 @@
         }
 
         /*メッセージ入力欄*/
-        textarea{
+        #send > textarea{
             /* width: 53%; */
-            width:calc(58vw-70px);
+            width:calc(100%-70px);
             /* height: calc(100vh - 180px); */
             height:100%;
             min-width: 20%;
             min-height: 100%;
-            max-width:calc(58vw-70px);
+            max-width:100%;
             /* resize: vertical; */
             overflow:auto;
             border:2px #E0E0E0 solid;
@@ -331,6 +331,7 @@
             height:100px;
             vertical-align:top;
             border:transparent;
+            position:fixed;
         }
 
         /* .sendBt{
@@ -351,7 +352,7 @@
             height:100px;
             bottom:0;
             /* background-color:red; */
-            width:100%;
+            width:57.8vw;
         }
     </style>
 
