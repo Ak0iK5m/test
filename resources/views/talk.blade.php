@@ -314,24 +314,30 @@
             height:100px;
             bottom:0;
             /* background-color:red; */
-            width:60vw;
+            width:57.8vw;
         }
 
         /*メッセージ入力欄*/
         #send-text {
             position:relative;
-            width:48vw;
+            /* width:48vw; */
+            /* width:calc(57.8vw-70px); */
+            width:calc( 57.8vw - 70px );
             height:100%;
             border:2px #E0E0E0 solid;
             background-color:white;
         }
 
+        #send-text > textarea {
+            width:100%;
+            height:100%;
+        }
         /* .button-area{
             text-align:center;
         } */
 
         #send-button {
-            position:relative;
+            position:absolute;
             height:100%;
             /* width:12vw; */
             width:70px;
@@ -341,8 +347,10 @@
             color:white;
             cursor:hand;
             cursor:pointer;
+
             /*試し*/
             /* position:fixed; */
+            right:0px;
         }
 
         .fa-telegram-plane{
