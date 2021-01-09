@@ -306,6 +306,119 @@
             display:block;
         }
 
+        
+
+        /*トーク内容表示*/
+        .name{
+            position:relative;
+            left:30px;
+            letter-spacing: 0.3em;
+            color:#007A7A;
+        }
+        /* .user-message-info {
+            display: flex;
+            height: 10%;
+        } */
+        .messageLine {
+            overflow: auto;
+            border-right: 1px solid #555;
+            border-left: 1px solid #555;
+        }
+
+        #messageLine > .opponent {
+            position:relative;
+            display: flex;
+            /* display:-webkit-box;
+  	        display:-ms-flexbox; */
+            flex-direction: column;
+        }
+
+        /* .faceicon {
+            position:relative;
+            display:flex;
+            flex-direction: row;
+        } */
+
+        /* .opponent {
+            float: left;
+            line-height: 1.5em; */
+            /* width: 100%; 
+        }*/
+        .opponent .message_box {
+            max-width: 75%;
+            font-size: 17px;
+            background: #fff;
+            border: 3px solid #007A7A;
+            border-radius: 10px;
+            /* margin-left: 30px;  */
+            position:relative;
+            /* left:30px; */
+            padding: 6px 9px;
+            /*↓試し*/
+            /* margin-top: 5px; */
+            display: inline-block;
+            color: #555;
+            /* position: relative;
+            box-sizing: border-box;
+            width: 75%;
+            border: 3px solid #007A7A;
+            min-height: 50px;
+            border-radius: 10px;
+            background-color: #fff;
+            margin: 0 auto 0 70px;
+            padding: 1em; */
+        }
+        .opponent .message_box .message_text{
+            margin: 5px;
+            padding: 3px;
+        }
+        .faceicon{
+            position:relative;
+            /* left:10px;
+            top:10px; */
+            /* float:left; */
+        }
+        .my-faceicon{
+            position:relative;
+            /* float:right; */
+            /* left:640px; */
+            float:right;
+            /* right:5%; */
+            /* right:10px; */
+            /* text-align: right; */
+        }
+        .my-faceicon > img{
+            /* position:relative; */
+            width:50px;
+            height:50px;
+            /* left:150px; */
+            /* right:-225px; */
+        }
+        .my-faceicon > p{
+            position:relative;
+            /* right:-3000px; */
+            /* left:100px; */
+        }
+        .my-faceicon > .message_box {
+            /* position:relative; */
+            /* left:150px; */
+            /* right: 25px;
+            left: auto; */
+            border: 3px solid #007A7A;
+            border-left-color: #78FF6C;
+        }
+        
+        /* .my-faceicon > .img-responsive {
+            display: block;
+            height: auto;
+             */
+            /* border:2px black solid; 
+        }*/
+        /* .float-left{
+            float:left;
+        } */
+
+        /*メッセージ入力欄*/
         #send {
             position:fixed;
             display: flex;
@@ -317,17 +430,6 @@
             width:57.8vw;
         }
 
-        /*トーク内容表示*/
-        #messageLine {
-            position:relative;
-            display: flex;
-            /* display:-webkit-box;
-  	        display:-ms-flexbox; */
-            flex-direction: column;
-        }
-
-
-        /*メッセージ入力欄*/
         #send-text {
             position:relative;
             width:calc( 57.8vw - 70px );
