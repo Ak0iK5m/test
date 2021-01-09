@@ -317,11 +317,19 @@
             width:57.8vw;
         }
 
+        /*トーク内容表示*/
+        #messageLine {
+            position:relative;
+            display: flex;
+            /* display:-webkit-box;
+  	        display:-ms-flexbox; */
+            flex-direction: column;
+        }
+
+
         /*メッセージ入力欄*/
         #send-text {
             position:relative;
-            /* width:48vw; */
-            /* width:calc(57.8vw-70px); */
             width:calc( 57.8vw - 70px );
             height:100%;
             border:2px #E0E0E0 solid;
@@ -330,16 +338,13 @@
 
         #send-text > textarea {
             width:100%;
-            height:100%;
+            height:70%;
+            border: transparent;
         }
-        /* .button-area{
-            text-align:center;
-        } */
 
         #send-button {
             position:absolute;
             height:100%;
-            /* width:12vw; */
             width:70px;
             text-align: center;
             background: #6FD8BB;
@@ -347,9 +352,6 @@
             color:white;
             cursor:hand;
             cursor:pointer;
-
-            /*試し*/
-            /* position:fixed; */
             right:0px;
         }
 
@@ -358,7 +360,20 @@
             color:white;
         }
         
-        
+        /*メッセージ入力欄内の機能一覧(アイコン)*/
+        #message-list {
+            
+            width: 100%;
+            height:30%;
+            letter-spacing:10px;
+            text-align: right;
+        }
+
+        #message-list > i {
+            color:#00697A;
+            
+            
+        }
     </style>
 
 </head>
