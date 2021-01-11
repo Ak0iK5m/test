@@ -315,10 +315,7 @@
             letter-spacing: 0.3em;
             color:#007A7A;
         }
-        /* .user-message-info {
-            display: flex;
-            height: 10%;
-        } */
+        
         .messageLine {
             overflow: auto;
             border-right: 1px solid #555;
@@ -333,91 +330,89 @@
             flex-direction: column;
         }
 
-        /* .faceicon {
-            position:relative;
-            display:flex;
-            flex-direction: row;
-        } */
-
-        /* .opponent {
-            float: left;
-            line-height: 1.5em; */
-            /* width: 100%; 
-        }*/
         .opponent .message_box {
             max-width: 75%;
+            min-width: 20%;
             font-size: 17px;
             background: #fff;
             border: 3px solid #007A7A;
             border-radius: 10px;
-            /* margin-left: 30px;  */
             position:relative;
-            /* left:30px; */
             padding: 6px 9px;
-            /*↓試し*/
-            /* margin-top: 5px; */
             display: inline-block;
             color: #555;
-            /* position: relative;
-            box-sizing: border-box;
-            width: 75%;
-            border: 3px solid #007A7A;
-            min-height: 50px;
-            border-radius: 10px;
-            background-color: #fff;
-            margin: 0 auto 0 70px;
-            padding: 1em; */
         }
         .opponent .message_box .message_text{
             margin: 5px;
             padding: 3px;
         }
+
+        /*相手のメッセージ内容*/
         .faceicon{
             position:relative;
-            /* left:10px;
-            top:10px; */
-            /* float:left; */
+            display: flex;
+            flex-direction: row;
+            margin-top:10px;
         }
+
+        .faceicon > img {
+            margin-left:10px;
+            margin-right:10px;
+        }
+
+        .faceicon > .flex-col{
+            
+            width:75%;
+            /* width:100%; */
+            position:relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            flex-shrink: 0;
+        }
+
+        .faceicon > .flex-col > .flex-row {
+            width:75%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .faceicon > .flex-col > .flex-row > p {
+            left:0%;
+        }
+
         .my-faceicon{
             position:relative;
-            /* float:right; */
-            /* left:640px; */
-            float:right;
-            /* right:5%; */
-            /* right:10px; */
-            /* text-align: right; */
+            display: flex;
+            flex-direction: row-reverse;
+            margin-top:10px;
         }
+
         .my-faceicon > img{
-            /* position:relative; */
             width:50px;
             height:50px;
-            /* left:150px; */
-            /* right:-225px; */
+            margin-right:10px;
         }
-        .my-faceicon > p{
-            position:relative;
-            /* right:-3000px; */
-            /* left:100px; */
-        }
-        .my-faceicon > .message_box {
-            /* position:relative; */
-            /* left:150px; */
-            /* right: 25px;
-            left: auto; */
-            border: 3px solid #007A7A;
-            border-left-color: #78FF6C;
-        }
-        
-        /* .my-faceicon > .img-responsive {
-            display: block;
-            height: auto;
-             */
-            /* border:2px black solid; 
-        }*/
-        /* .float-left{
-            float:left;
-        } */
 
+        .my-faceicon > .flex-col {
+            position:relative;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+        .my-faceicon > .flex-col > .flex-row {
+            width: 75%;
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+        }
+
+        .my-faceicon > .flex-col > .message_box {
+            max-width:75%;
+            border: 3px solid #007A7A;
+        }
+
+        
         /*メッセージ入力欄*/
         #send {
             position:fixed;
