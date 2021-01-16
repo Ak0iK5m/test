@@ -386,12 +386,15 @@
             display: flex;
             flex-direction: row-reverse;
             margin-top:10px;
+            float:right;
+
         }
 
         .my-faceicon > img{
             width:50px;
             height:50px;
-            margin-right:10px;
+            margin-right:1%;
+            position: relative;
         }
 
         .my-faceicon > .flex-col {
@@ -405,11 +408,15 @@
             display: flex;
             flex-direction: row-reverse;
             justify-content: space-between;
+            position:relative;
+            left: 21%;
         }
 
         .my-faceicon > .flex-col > .message_box {
             max-width:75%;
             border: 3px solid #007A7A;
+            left:21%;
+            position: relative;
         }
 
         
