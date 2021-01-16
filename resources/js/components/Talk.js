@@ -235,7 +235,7 @@ export default class Talk extends Component {
                                         </div>
                                     </div>
                                     <div class="clear"></div>
-                                </div>
+                                </div>  
                             </div>
                         </div>
 

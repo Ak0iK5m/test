@@ -353,6 +353,7 @@
             display: flex;
             flex-direction: row;
             margin-top:10px;
+            margin-bottom:20px;
         }
 
         .faceicon > img {
@@ -386,6 +387,7 @@
             display: flex;
             flex-direction: row-reverse;
             margin-top:10px;
+            margin-bottom:20px;
             float:right;
 
         }
@@ -393,14 +395,17 @@
         .my-faceicon > img{
             width:50px;
             height:50px;
-            margin-right:1%;
-            position: relative;
+            margin-right:10px;
+            margin-left:10px;
+            /* position: relative; */
         }
 
         .my-faceicon > .flex-col {
             position:relative;
             display: flex;
             flex-direction: column;
+            flex-shrink: 0;
+            justify-content:space-between;
             width: 100%;
         }
         .my-faceicon > .flex-col > .flex-row {
@@ -415,7 +420,7 @@
         .my-faceicon > .flex-col > .message_box {
             max-width:75%;
             border: 3px solid #007A7A;
-            left:21%;
+            left:22%;
             position: relative;
         }
 
