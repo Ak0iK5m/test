@@ -130,7 +130,7 @@
             }
 
             .my-header {
-                width:40vw;
+                width:60vw;
                 height:80px;
                 background-color: #E9F2F3;
                 color:#8aa0a0;

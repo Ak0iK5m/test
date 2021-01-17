@@ -189,7 +189,8 @@
         /*main-contents: header + main-items*/
         .main-contents {
             height: 100vh;
-            width: 58vw;
+            /* width: 58vw; */
+            width: calc(100vw - 18vw);
             background-color: gray;
         }
         .my-header {
@@ -203,25 +204,30 @@
             margin-left: 0;
         }
         .account-settings {
-            width: 20vw;
+            /* width: 20vw; */
+            width: 81.85vw;
             height: 80px;
             right: 0px;
             border-left: solid #CCE3E3;
             background: #E9F2F3;
             display: flex;
             flex-flow: row;
-            justify-content: center;
+            /* justify-content: right; */
             top: 0px;
             position: fixed;
+            text-align: right;
             /* width:30%;
             background-color:blue; */
         }
         .account-settings>.my-header-items-section>a {
             color: #8AA0A0;
+            left:1000px;
+
         }
         .account-settings>.my-header-items-section>p {
             color: #8AA0A0;
             font-size: 12px;
+            left:100px;
         }
         .my-header-title {
             width: 40%;
@@ -269,8 +275,8 @@
         /*main-item*/
         .main-item {
             background-color: #FFFFFF;
-            height: calc(100vh - 180px);
-            width: 57.8vw;
+            height:100vh;
+            width: 82vw;
             top: 80px;
             position: absolute;
             overflow-y: scroll;
