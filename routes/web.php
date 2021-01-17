@@ -25,6 +25,10 @@ Route::get('/talk', function () {
     return view('talk');
 });
 
+Route::get('/arael_home', function () {
+    return view('arael_home');
+});
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
