@@ -67,125 +67,7 @@
             height: 100vh;
             width: calc(100vw - 18vw);
         }
-        /*トーク一覧*/
-        .folder-menu {
-            width: 24vw;
-            height: 100vh;
-            background-color: #CCE3E3;
-            color: #007a7a;
-            border: solid #E0E0E0 1px;
-        }
-
-        .search-back {
-            position:relative;;
-            top:0px;
-            height:80px;
-            width:100%;
-            display:flex;
-            justify-content:center;
-            align-items:center;
-        }
-
-        .search-text {
-            position:relative;
-            height: 40%;
-            width: 80%;
-            border: none;
-            border-radius: 4px;
-            color: #00697A;
-            font-family: "Font Awesome 5 Free", 'Noto Sans JP', 'sans-serif';
-            font-weight: 600;
-        }
-        .folder-list {
-            position: relative;
-            height: calc(100%  - 80px);
-            width: 100%;
-            overflow-y:scroll;
-            -ms-overflow-style: none;    /* IE, Edge 対応 */
-            scrollbar-width: none;       /* Firefox 対応 */
-        }
-
-        .folder-list>li {
-            border: solid 1px white;
-            height: 80px;
-            width: 100%;
-            display: flex;
-            display:-webkit-box;
-  	        display:-ms-flexbox;
-            align-items: center;
-            -webkit-box-align: center;
-	        -ms-flex-align: center;
-            background-color: #e9f2f3;
-            overflow-x:scroll;
-            -ms-overflow-style: none;    /* IE, Edge 対応 */
-            scrollbar-width: none;       /* Firefox 対応 */
-        }
-
-        .folder-list::-webkit-scrollbar,.folder-list > li::-webkit-scrollbar {  /* Chrome, Safari 対応 */
-            display:none;
-        }
-
-        .user-icon {
-            height: 30px;
-            width: 35px;
-            position: relative;
-            margin: 15px;
-            background: #FFFFFF;
-            text-align: center;
-        }
-        .user-icon > .fa-user {
-            position: relative;
-            top: 4px;
-        }
-        .user-text {
-            position: relative;
-            height: 100%;
-            width: 100%;
-            display: flex;
-            flex-flow: column;
-            justify-content: space-around;
-            -ms-flex-pack: distribute;
-        }
-        .text-list {
-            display: flex;
-            display:-webkit-box;
-  	        display:-ms-flexbox;
-            position: relative;
-            /* top: 15px; */
-        }
-        .date {
-            color: #8aa0a0;
-            font-size: 12px;
-            position: relative;
-            left: 155px;
-            top: 5px;
-        }
-        .talk-list {
-            width: 100%;
-            position: relative;
-            bottom: 10px;
-        }
-        .talk-list>input {
-            height: 10px;
-            width: 15vw;
-            text-overflow: ellipsis;
-            position: relative;
-            top: 13px;
-        }
-        .talk-list>.talk-circle {
-            width: 20px;
-            height: 20px;
-            border-radius: 50%;
-            -webkit-border-radius:50%;
-            background: #E47E7E;
-            text-align: center;
-            color: white;
-            position: relative;
-            bottom: 25px;
-            left: 255px;
-            bottom: 10px;
-            
-        }
+        
         /*main-contents: header + main-items*/
         .main-contents {
             height: 100vh;
@@ -194,7 +76,7 @@
             background-color: gray;
         }
         .my-header {
-            width: 40vw;
+            width: 64vw;
             height: 80px;
             background-color: #E9F2F3;
             color: #8aa0a0;
@@ -203,31 +85,35 @@
   	        display:-ms-flexbox;
             margin-left: 0;
         }
+
+        .my-header > h2 {
+            color:#62ABB6;
+            font-weight: 500;
+            position:relative;
+            top:20px;
+            left:15px;
+        }
+
         .account-settings {
-            /* width: 20vw; */
-            width: 81.85vw;
+            width: 20vw;
             height: 80px;
             right: 0px;
             border-left: solid #CCE3E3;
             background: #E9F2F3;
             display: flex;
             flex-flow: row;
-            /* justify-content: right; */
+            justify-content: center;
             top: 0px;
             position: fixed;
-            text-align: right;
             /* width:30%;
             background-color:blue; */
         }
         .account-settings>.my-header-items-section>a {
             color: #8AA0A0;
-            left:1000px;
-
         }
         .account-settings>.my-header-items-section>p {
             color: #8AA0A0;
             font-size: 12px;
-            left:100px;
         }
         .my-header-title {
             width: 40%;
@@ -282,26 +168,18 @@
             overflow-y: scroll;
             overflow-x: hidden;
         }
-        
-        /* .inner-circle {
-            display: flex;
-            display:-webkit-box;
-  	        display:-ms-flexbox;
-            width: 100%;
-            position: relative;
-            height: 20px;
-            top: 30%;
-        } */
-        .circle {
-            /* width: 20px;
-            height: 20px;
-            border-radius: 50%;
-            background: red;
+
+        .main-item > h2 {
+            color:#8AA0A0;
+            font-weight: 400;
             text-align: center;
-            color:white;
-            position:relative;
-            bottom:13px;
-            left:255px; */
+            position: relative;
+            top:30px;
+            margin-bottom:50px;
+        }
+        
+        
+        .circle {
             width: 40px;
             height: 40px;
             border-radius: 50%;
@@ -311,6 +189,35 @@
             -webkit-border-radius:50%;
             display:block;
         }
+
+        .edit-report{
+            border:2.3px solid #8AA0A0;
+            border-radius: 5px;
+            width: 64vw;
+            position: relative;
+            left:10vw;
+            display:flex;
+            flex-flow:column;
+        }
+
+        .date{
+            color:#8AA0A0;
+            position: relative;
+            top:5px;
+            left: 10px;
+            font-size:14px;
+            width: calc( 64vw - 20px );
+            height:25px;
+            border-bottom: 1px solid #8AA0A0;
+        }
+
+        .edit-detail{
+            position: relative;
+            margin-top:15px;
+            display: flex;
+            flex-flow: row;
+        }
+
     </style>
 
 </head>

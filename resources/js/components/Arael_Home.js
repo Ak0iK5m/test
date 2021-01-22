@@ -36,7 +36,9 @@ export default class Arael_Home extends Component {
 
             <div className="main-menu">
                 <div className="main-contents">
-                
+                    <div className="my-header">
+                        <h2>ホーム</h2>
+                    </div>
                     <div className="account-settings">
                         <section className="my-header-items-section">
                             <a href="" className="circle"><i class="far fa-user"></i></a>
@@ -56,7 +58,17 @@ export default class Arael_Home extends Component {
                         </section>
                     </div>
                     <div className="main-item">
-                        
+                        <h2>最近の更新</h2>
+                        <div className="edit-report">
+                            <p className="date">2021年1月18日(月)</p>
+                            <div className="edit-detail">
+                                <img src="" width="50" height="50" class="rounded-circle align-middle img-responsive float-left"></img>
+                                <div className="edited-who">
+                                    <p>山田太郎さんがノートを編集しました。</p>
+                                </div>
+                                <p className="edited-ago">2ヶ月前</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
