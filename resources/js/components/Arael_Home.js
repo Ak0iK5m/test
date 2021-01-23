@@ -59,14 +59,70 @@ export default class Arael_Home extends Component {
                     </div>
                     <div className="main-item">
                         <h2>最近の更新</h2>
-                        <div className="edit-report">
-                            <p className="date">2021年1月18日(月)</p>
-                            <div className="edit-detail">
-                                <img src="" width="50" height="50" class="rounded-circle align-middle img-responsive float-left"></img>
-                                <div className="edited-who">
-                                    <p>山田太郎さんがノートを編集しました。</p>
+                        <div className="day">
+                            <div className="updated-report">
+                                <p className="date">2021年1月18日(月)</p>
+                                <div className="updated-detail">
+                                    <img src="" width="50" height="50" class="rounded-circle align-middle img-responsive float-left"></img>
+                                    <div className="updated-content">
+                                        <p className="updated-chara">山田太郎さんが<button type="submit" name="action">　<i class="fas fa-book-open"></i>ノート　</button>を編集</p>
+                                        <div className="updated-feature">
+                                            <p className="note-name">ノート名：</p>
+                                                <div className="note">
+                                                    <span className="note-content">編集したサンプルテキスト編集したサンプルテキスト編集したサンプルテキスト編集したサンプルテキスト編集したサンプルテキスト編集したサンプルテキスト編集したサンプルテキスト編集したサンプルテキスト編集したサンプルテキスト</span>
+                                                    <div className="btn-dsn"><button type="submit" name="action"　className="more-read">　もっと読む　<i className="fas fa-angle-double-down"></i></button></div>
+
+                                                </div>
+                                        </div>
+                                        
+                                        
+                                    </div>
+                                    <div className="edited-ago">2ヶ月前</div>
                                 </div>
-                                <p className="edited-ago">2ヶ月前</p>
+                            </div>
+                            <div className="updated-report">
+                                <p className="date">2021年1月18日(月)</p>
+                                <div className="updated-detail">
+                                    <img src="" width="50" height="50" class="rounded-circle align-middle img-responsive float-left"></img>
+                                    <div className="updated-content">
+                                        <p className="updated-chara">山田太郎さんが<button type="submit" name="action">　<i class="fas fa-book-open"></i>ノート　</button>を編集</p>
+                                        <div className="updated-feature">
+                                            <p className="note-name">ノート名：</p>
+                                                <div className="note">
+                                                    <span className="note-content">編集したサンプルテキスト編集したサンプルテキスト編集したサンプルテキスト編集したサンプルテキスト編集したサンプルテキスト編集したサンプルテキスト編集したサンプルテキスト編集したサンプルテキスト編集したサンプルテキスト</span>
+                                                    <div className="btn-dsn"><button type="submit" name="action"　className="more-read">　もっと読む　<i className="fas fa-angle-double-down"></i></button></div>
+
+                                                </div>
+                                        </div>
+                                        
+                                        
+                                    </div>
+                                    <div className="edited-ago">2ヶ月前</div>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <div className="day">
+                            <div className="updated-report">
+                                <p className="date">2021年1月18日(月)</p>
+                                <div className="updated-detail">
+                                    <img src="" width="50" height="50" class="rounded-circle align-middle img-responsive float-left"></img>
+                                    <div className="updated-content">
+                                        <p className="updated-chara">山田太郎さんが<button type="submit" name="action">　<i class="fas fa-book-open"></i>ノート　</button>を編集</p>
+                                        <div className="updated-feature">
+                                            <p className="note-name">ノート名：</p>
+                                                <div className="note">
+                                                    <span className="note-content">編集したサンプルテキスト編集したサンプルテキスト編集したサンプルテキスト編集したサンプルテキスト編集したサンプルテキスト編集したサンプルテキスト編集したサンプルテキスト編集したサンプルテキスト編集したサンプルテキスト</span>
+                                                    <div className="btn-dsn"><button type="submit" name="action"　className="more-read">　もっと読む　<i className="fas fa-angle-double-down"></i></button></div>
+
+                                                </div>
+                                        </div>
+                                        
+                                        
+                                    </div>
+                                    <div className="edited-ago">2ヶ月前</div>
+                                </div>
                             </div>
                         </div>
                     </div>

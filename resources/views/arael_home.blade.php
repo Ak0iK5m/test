@@ -190,14 +190,29 @@
             display:block;
         }
 
-        .edit-report{
+        .day{
+            margin-top:30px;
             border:2.3px solid #8AA0A0;
             border-radius: 5px;
             width: 64vw;
             position: relative;
             left:10vw;
+        }
+        .updated-report{
+            /* border:2.3px solid #8AA0A0;
+            border-radius: 5px; */
+            /* border-bottom: none; */
+            /* width: 64vw; */
+            position: relative;
+            /* left:10vw; */
             display:flex;
             flex-flow:column;
+            color:#8AA0A0;
+        }
+
+        .updated-detail > .edited-ago {
+            width: 10vw;
+            text-align: right;
         }
 
         .date{
@@ -211,13 +226,74 @@
             border-bottom: 1px solid #8AA0A0;
         }
 
-        .edit-detail{
+        
+        .updated-detail{
             position: relative;
             margin-top:15px;
             display: flex;
             flex-flow: row;
+            /* width: 12vw; */
         }
 
+        .updated-detail > img {
+            margin:10px 15px;
+
+        }
+
+        .updated-content {
+            width: 47vw;
+            display: flex;
+            flex-direction: column;
+            /* border-bottom: 1px solid #8AA0A0; */
+        }
+
+        .updated-chara{
+            margin:5px;
+        }
+
+        .updated-feature{
+            margin:5px;
+            display:flex;
+            flex-direction: row;
+        }
+
+        .note-name {
+            position:relative;
+            width:20vw;
+        }
+
+        .note{
+            display: flex;
+            flex-direction: column;
+            
+        }
+
+        button{
+            background-color: #4B8999;
+            border-style:none;
+            color:#FFFFFF;
+            font-size:14px;
+            margin:1px;
+            border-radius: 3px;
+        }
+
+        .btn-dsn{
+            width: 40vw;
+            text-align: right;
+        }
+        .more-read{
+            /* background-color: #00000029; */
+            background-color:#E9F2F3;
+            /* color:#62ABB6; */
+            color:#4B8999;
+            position:relative;
+            /* left: 38vw; */
+        
+            width: 115px;
+            height:30px;
+            padding:3px;
+            margin:10px;
+        }
     </style>
 
 </head>

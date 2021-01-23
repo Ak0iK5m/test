@@ -65962,21 +65962,124 @@ var Arael_Home = /*#__PURE__*/function (_Component) {
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u30D8\u30EB\u30D7"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "main-item"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "\u6700\u8FD1\u306E\u66F4\u65B0"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "edit-report"
+        className: "day"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "updated-report"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         className: "date"
       }, "2021\u5E741\u670818\u65E5(\u6708)"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "edit-detail"
+        className: "updated-detail"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "",
         width: "50",
         height: "50",
         "class": "rounded-circle align-middle img-responsive float-left"
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "edited-who"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u5C71\u7530\u592A\u90CE\u3055\u3093\u304C\u30CE\u30FC\u30C8\u3092\u7DE8\u96C6\u3057\u307E\u3057\u305F\u3002")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "updated-content"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "updated-chara"
+      }, "\u5C71\u7530\u592A\u90CE\u3055\u3093\u304C", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+        type: "submit",
+        name: "action"
+      }, "\u3000", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+        "class": "fas fa-book-open"
+      }), "\u30CE\u30FC\u30C8\u3000"), "\u3092\u7DE8\u96C6"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "updated-feature"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "note-name"
+      }, "\u30CE\u30FC\u30C8\u540D\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "note"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "note-content"
+      }, "\u7DE8\u96C6\u3057\u305F\u30B5\u30F3\u30D7\u30EB\u30C6\u30AD\u30B9\u30C8\u7DE8\u96C6\u3057\u305F\u30B5\u30F3\u30D7\u30EB\u30C6\u30AD\u30B9\u30C8\u7DE8\u96C6\u3057\u305F\u30B5\u30F3\u30D7\u30EB\u30C6\u30AD\u30B9\u30C8\u7DE8\u96C6\u3057\u305F\u30B5\u30F3\u30D7\u30EB\u30C6\u30AD\u30B9\u30C8\u7DE8\u96C6\u3057\u305F\u30B5\u30F3\u30D7\u30EB\u30C6\u30AD\u30B9\u30C8\u7DE8\u96C6\u3057\u305F\u30B5\u30F3\u30D7\u30EB\u30C6\u30AD\u30B9\u30C8\u7DE8\u96C6\u3057\u305F\u30B5\u30F3\u30D7\u30EB\u30C6\u30AD\u30B9\u30C8\u7DE8\u96C6\u3057\u305F\u30B5\u30F3\u30D7\u30EB\u30C6\u30AD\u30B9\u30C8\u7DE8\u96C6\u3057\u305F\u30B5\u30F3\u30D7\u30EB\u30C6\u30AD\u30B9\u30C8"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "btn-dsn"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+        type: "submit",
+        name: "action",
+        className: "more-read"
+      }, "\u3000\u3082\u3063\u3068\u8AAD\u3080\u3000", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+        className: "fas fa-angle-double-down"
+      })))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "edited-ago"
-      }, "2\u30F6\u6708\u524D"))))));
+      }, "2\u30F6\u6708\u524D"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "updated-report"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "date"
+      }, "2021\u5E741\u670818\u65E5(\u6708)"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "updated-detail"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "",
+        width: "50",
+        height: "50",
+        "class": "rounded-circle align-middle img-responsive float-left"
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "updated-content"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "updated-chara"
+      }, "\u5C71\u7530\u592A\u90CE\u3055\u3093\u304C", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+        type: "submit",
+        name: "action"
+      }, "\u3000", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+        "class": "fas fa-book-open"
+      }), "\u30CE\u30FC\u30C8\u3000"), "\u3092\u7DE8\u96C6"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "updated-feature"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "note-name"
+      }, "\u30CE\u30FC\u30C8\u540D\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "note"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "note-content"
+      }, "\u7DE8\u96C6\u3057\u305F\u30B5\u30F3\u30D7\u30EB\u30C6\u30AD\u30B9\u30C8\u7DE8\u96C6\u3057\u305F\u30B5\u30F3\u30D7\u30EB\u30C6\u30AD\u30B9\u30C8\u7DE8\u96C6\u3057\u305F\u30B5\u30F3\u30D7\u30EB\u30C6\u30AD\u30B9\u30C8\u7DE8\u96C6\u3057\u305F\u30B5\u30F3\u30D7\u30EB\u30C6\u30AD\u30B9\u30C8\u7DE8\u96C6\u3057\u305F\u30B5\u30F3\u30D7\u30EB\u30C6\u30AD\u30B9\u30C8\u7DE8\u96C6\u3057\u305F\u30B5\u30F3\u30D7\u30EB\u30C6\u30AD\u30B9\u30C8\u7DE8\u96C6\u3057\u305F\u30B5\u30F3\u30D7\u30EB\u30C6\u30AD\u30B9\u30C8\u7DE8\u96C6\u3057\u305F\u30B5\u30F3\u30D7\u30EB\u30C6\u30AD\u30B9\u30C8\u7DE8\u96C6\u3057\u305F\u30B5\u30F3\u30D7\u30EB\u30C6\u30AD\u30B9\u30C8"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "btn-dsn"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+        type: "submit",
+        name: "action",
+        className: "more-read"
+      }, "\u3000\u3082\u3063\u3068\u8AAD\u3080\u3000", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+        className: "fas fa-angle-double-down"
+      })))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "edited-ago"
+      }, "2\u30F6\u6708\u524D")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "day"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "updated-report"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "date"
+      }, "2021\u5E741\u670818\u65E5(\u6708)"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "updated-detail"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "",
+        width: "50",
+        height: "50",
+        "class": "rounded-circle align-middle img-responsive float-left"
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "updated-content"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "updated-chara"
+      }, "\u5C71\u7530\u592A\u90CE\u3055\u3093\u304C", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+        type: "submit",
+        name: "action"
+      }, "\u3000", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+        "class": "fas fa-book-open"
+      }), "\u30CE\u30FC\u30C8\u3000"), "\u3092\u7DE8\u96C6"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "updated-feature"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "note-name"
+      }, "\u30CE\u30FC\u30C8\u540D\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "note"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "note-content"
+      }, "\u7DE8\u96C6\u3057\u305F\u30B5\u30F3\u30D7\u30EB\u30C6\u30AD\u30B9\u30C8\u7DE8\u96C6\u3057\u305F\u30B5\u30F3\u30D7\u30EB\u30C6\u30AD\u30B9\u30C8\u7DE8\u96C6\u3057\u305F\u30B5\u30F3\u30D7\u30EB\u30C6\u30AD\u30B9\u30C8\u7DE8\u96C6\u3057\u305F\u30B5\u30F3\u30D7\u30EB\u30C6\u30AD\u30B9\u30C8\u7DE8\u96C6\u3057\u305F\u30B5\u30F3\u30D7\u30EB\u30C6\u30AD\u30B9\u30C8\u7DE8\u96C6\u3057\u305F\u30B5\u30F3\u30D7\u30EB\u30C6\u30AD\u30B9\u30C8\u7DE8\u96C6\u3057\u305F\u30B5\u30F3\u30D7\u30EB\u30C6\u30AD\u30B9\u30C8\u7DE8\u96C6\u3057\u305F\u30B5\u30F3\u30D7\u30EB\u30C6\u30AD\u30B9\u30C8\u7DE8\u96C6\u3057\u305F\u30B5\u30F3\u30D7\u30EB\u30C6\u30AD\u30B9\u30C8"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "btn-dsn"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+        type: "submit",
+        name: "action",
+        className: "more-read"
+      }, "\u3000\u3082\u3063\u3068\u8AAD\u3080\u3000", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+        className: "fas fa-angle-double-down"
+      })))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "edited-ago"
+      }, "2\u30F6\u6708\u524D")))))));
     }
   }]);
 
