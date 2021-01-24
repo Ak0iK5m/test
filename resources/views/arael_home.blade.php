@@ -213,6 +213,7 @@
         .updated-detail > .edited-ago {
             width: 10vw;
             text-align: right;
+            /* font-size: 0.8rem; */
         }
 
         .date{
@@ -223,11 +224,12 @@
             font-size:14px;
             width: calc( 64vw - 20px );
             height:25px;
-            border-bottom: 1px solid #8AA0A0;
+            /* border-bottom: 1px solid #8AA0A0; */
         }
 
         
         .updated-detail{
+            border-top: 1px solid #8AA0A0;
             position: relative;
             margin-top:15px;
             display: flex;
@@ -268,6 +270,14 @@
             
         }
 
+        .note-content {
+            width: 30vw;
+            position:relative;
+            text-overflow : ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+
         button{
             background-color: #4B8999;
             border-style:none;
@@ -282,13 +292,9 @@
             text-align: right;
         }
         .more-read{
-            /* background-color: #00000029; */
             background-color:#E9F2F3;
-            /* color:#62ABB6; */
             color:#4B8999;
             position:relative;
-            /* left: 38vw; */
-        
             width: 115px;
             height:30px;
             padding:3px;

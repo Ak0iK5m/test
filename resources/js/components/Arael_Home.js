@@ -81,7 +81,7 @@ export default class Arael_Home extends Component {
                                 </div>
                             </div>
                             <div className="updated-report">
-                                <p className="date">2021年1月18日(月)</p>
+                                {/* <p className="date">2021年1月18日(月)</p> */}
                                 <div className="updated-detail">
                                     <img src="" width="50" height="50" class="rounded-circle align-middle img-responsive float-left"></img>
                                     <div className="updated-content">
@@ -94,8 +94,6 @@ export default class Arael_Home extends Component {
 
                                                 </div>
                                         </div>
-                                        
-                                        
                                     </div>
                                     <div className="edited-ago">2ヶ月前</div>
                                 </div>
