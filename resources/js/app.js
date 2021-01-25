@@ -17,3 +17,4 @@ require('./bootstrap');
 require('./components/File_Sharing')
 require('./components/Talk')
 require('./components/Arael_Home')
+require('./components/Feature_List')

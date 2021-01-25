@@ -29,6 +29,11 @@ Route::get('/arael_home', function () {
     return view('arael_home');
 });
 
+Route::get('/feature_list', function () {
+    return view('feature_list');
+});
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
