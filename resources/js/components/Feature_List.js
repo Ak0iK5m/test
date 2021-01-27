@@ -37,7 +37,7 @@ export default class Feature_List extends Component {
             <div className="main-menu">
                 <div className="main-contents">
                     <div className="my-header">
-                        <h2>基本管理</h2>
+                        <h2>機能管理</h2>
                     </div>
                     <div className="account-settings">
                         <section className="my-header-items-section">

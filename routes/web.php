@@ -37,6 +37,10 @@ Route::get('/user_management', function () {
     return view('user_management');
 });
 
+Route::get('/function_management', function () {
+    return view('function_management');
+});
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
