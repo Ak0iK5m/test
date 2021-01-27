@@ -33,6 +33,10 @@ Route::get('/feature_list', function () {
     return view('feature_list');
 });
 
+Route::get('/user_management', function () {
+    return view('user_management');
+});
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
