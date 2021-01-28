@@ -140,6 +140,8 @@
         .td-input > input {
             height: 30px;
             width:300px;
+            border:2px solid #CCE3E3;
+            border-radius:3px;
         }
 
         .img-edit{
@@ -152,6 +154,7 @@
         .img-show{
             /* width:200px;
             height:200px; */
+            margin:1vw;
             width:18vw;
             height: 18vw;
             border:1px solid #CCE3E3;
@@ -169,9 +172,11 @@
         label[for=img-change]{
             padding:10px;
             margin:10px;
+            /* margin-right: 3vw; */
             background-color: #00B7B7;
             color:#FFF;
             border-radius: 5px;
+            width:100px;
         }
         #img-chage{
             display:none;
@@ -179,8 +184,10 @@
         }
 
         .btn-col{
+            width:20vw;
             display: flex;
             flex-direction: row;
+            justify-content: space-between;
         }
 
         .btn-col > button {
@@ -188,6 +195,7 @@
             border:none;
             border-radius: 5px;
             margin:10px;
+            /* margin-left:1vw; */
             width:100px;
             height: 47px;
             color:#FFF;

@@ -28,7 +28,7 @@
             width: 100vw;
             padding: 0;
             margin: 0 auto;
-            font-size: 4vm;
+            font-size:4vm;
             font-family: 'Noto Sans JP', sans-serif;
             position: fixed;
         }
@@ -170,39 +170,29 @@
             /* text-align: center; */
         }
 
-        .circle {
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            background: white;
-            text-align: center;
-            line-height: 36px;
-            -webkit-border-radius:50%;
-            display:block;
+        table{
+            margin-left: auto;
+            margin-right: auto;
+            width: 50vw;
+            color:#00697A;
         }
 
-        .list{
-            width: 60vw;
-            text-align: center;
-            position: relative;
-            left:10vw;
+        table > tr > td {
+            width:60px;
+            padding:25px;
         }
 
-        .input-list {
-            display: flex;
-            flex-direction: row;
-            text-align: center;
-            justify-content: space-around;
+        table > tr > td > input { 
+            width: 300px;
+            height: 27px;
+            border:2px solid #CCE3E3;
+            border-radius:3px;
         }
-        .input-list > .input-des {
-            text-align: right;
-            margin-left:10px;
+        .position{
+            width:150px;
+            font-size:17px;
         }
 
-        .input-list > label {
-            text-align: left;
-            margin-left:30px;
-        }
         
         button{
             background-color: #4B8999;
