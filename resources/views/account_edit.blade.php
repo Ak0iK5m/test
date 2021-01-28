@@ -88,14 +88,23 @@
   	        display:-ms-flexbox;
             margin-left: 0;
         }
+
+        .my-header > button {
+            background-color:#00697A;
+            width: 70px;
+            height: 70px;
+            border-radius: 0 5px 5px 0;
+            border:none;
+            margin-top:10px;
+            font-size: 40px;
+            font-weight:400;
+            color:#FFF;
+        }
         /*main-item*/
         .main-item {
             background-color: #FFFFFF;
-            /* height: calc(100vh - 180px); */
             height:100vh;
-            /* width: 57.8vw; */
             width:82vw;
-            /* top: 80px; */
             position: absolute;
             overflow-y: scroll;
             overflow-x: hidden;
@@ -104,45 +113,85 @@
 
         h2{
             color: #8aa0a0;
-            font-weight:400;        }
-        
-        .circle {
-            /* width: 20px;
-            height: 20px;
-            border-radius: 50%;
-            background: red;
-            text-align: center;
-            color:white;
-            position:relative;
-            bottom:13px;
-            left:255px; */
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            background: white;
-            text-align: center;
-            line-height: 36px;
-            -webkit-border-radius:50%;
-            display:block;
+            font-weight:400;        
         }
-
 
         .input-edit{
-            width:60vw;
+            display: flex;
+            flex-direction: row;
         }
 
-        .input-edit > table {
-            width:50vw;
-            margin:20px;
-            margin-left:100px;
+        .input-table{
+            margin:1vw;
+            margin-left:3vw;
+            color:#00697A;
         }
 
-        .input-edit > table > tr > td {
-            padding:30px;
-        }
-        .td-title{
-            width:15vw;
+        .input-table > tr{
             text-align: left;
+            width:35px;
+        }
+
+        .input-table > tr > td {
+            padding:2vw;
+            padding-left:1vw;
+            font-size:1.3vw;
+        }
+        .td-input > input {
+            height: 30px;
+            width:300px;
+        }
+
+        .img-edit{
+            margin:1vw;
+            display: flex;
+            flex-direction: column;
+        }
+
+        
+        .img-show{
+            /* width:200px;
+            height:200px; */
+            width:18vw;
+            height: 18vw;
+            border:1px solid #CCE3E3;
+            /* vertical-align: middle; */
+        }
+
+        .img-show > .fa-user{
+            font-size: 3vw;
+            color:#00697A;
+            /* text-align:center;
+            justify-content: center; */
+            margin-top: 7vw;
+        }
+
+        label[for=img-change]{
+            padding:10px;
+            margin:10px;
+            background-color: #00B7B7;
+            color:#FFF;
+            border-radius: 5px;
+        }
+        #img-chage{
+            display:none;
+            
+        }
+
+        .btn-col{
+            display: flex;
+            flex-direction: row;
+        }
+
+        .btn-col > button {
+            background-color: #E47E7E;
+            border:none;
+            border-radius: 5px;
+            margin:10px;
+            width:100px;
+            height: 47px;
+            color:#FFF;
+            font-size:16px;
         }
         
     </style>
