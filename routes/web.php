@@ -41,6 +41,10 @@ Route::get('/function_management', function () {
     return view('function_management');
 });
 
+Route::get('/account_edit', function () {
+    return view('account_edit');
+});
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
